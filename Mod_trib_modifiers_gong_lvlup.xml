@@ -167,17 +167,3 @@
 	</Modifier>
 
 </List></ModifierDefs>
-l_modifiers_gong1_blackfulmination_lvlup1" Type="Normal">
-		<DisplayName>Unstoppable Black Lightning - ONE SHOT EVERYTHING</DisplayName>
-		<MaxStack>0</MaxStack>
-		<Duration>-1</Duration>
-		<Display>0</Display>
-		<Properties>
-			<li Name="NpcFight_SpellPowerAddP" AddP="1000"/>
-			<li Name="NpcFight_SpellLingCostAddP" BAddP="-0.99"/>
-			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.99"/>
-			<li Name="NpcFight_Attack" AddV="100000"/>
-		</Properties>
-	</Modifier>
-
-</List></ModifierDefs>

@@ -260,24 +260,3 @@
 	</Esoterica>
 
 </List></Esotericas>
-ationpill</li>
-		</Dans>
-	</Esoterica>
-
-</List></Esotericas>
-condensedlightning">
-		<DisplayName>Condensed Tribulation Pill</DisplayName>
-		<Icon>res/Sprs/ui/icon_liandan</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>12</Difficulty>
-		<Desc>A method to capture the essense of tribulation lightning and refine it into a pill. Only the strongest cultivators may consume it, but it will tremendoulsy help cultivation.</Desc>
-		<GLevel>God2</GLevel>
-		<Element>Jin</Element>
-		<Type>Dan</Type>
-		<EffectDesc>[size=10][color=#D06508]Acquire the following recipe: \nCondensed Tribulation Pill[/color][/size]</EffectDesc>
-		<Dans>
-			<li>Mod_trib_formula_condensedtribulationpill</li>
-		</Dans>	
-	</Esoterica>
-
-</List></Esotericas>
