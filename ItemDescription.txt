@@ -146,4 +146,3 @@ Mod_trib_item_bedevilmentpill	Sword Mastery, In bottle, Purple
 Mod_trib_item_malignancypill	Spell Power, In bottle, Black
 Mod_trib_item_innercauldronpill	Black, Spherical, Foundation
 Mod_trib_item_condensedtribulationpill	Spherical, No Elements, Heavenly Tribulation
-lation

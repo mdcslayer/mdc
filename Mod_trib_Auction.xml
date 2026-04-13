@@ -228,16 +228,3 @@
 	</Def>
 
 </List></Defs>
-pe>XiaoDan</AucType>
-		</Item>
-		<Item Weight="1" CountName="Normal">
-			<ItemName>Item_QiZhi</ItemName>
-			<AucType>XiaoDan</AucType>
-		</Item>
-        <Item Weight="1" CountName="Normal">
-            <ItemName>Mod_trib_item_qicompressionpill</ItemName>
-            <AucType>XiaoDan</AucType>
-        </Item>
-	</Def>
-	
-</List></Defs>

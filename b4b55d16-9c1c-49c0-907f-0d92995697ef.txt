@@ -1,2 +1,2 @@
 Name	DisplayName	Scene	Target	Emotion	OtherWorld	DownMod
-b4b55d16-9c1c-49c0-907f-0d92995697ef	FloWinEcs	HearWind	Flower	GreatlyHappy	1	0f-0d92995697ef	FloWinEcs	HearWind	Flower	GreatlyHappy	1	1	
+b4b55d16-9c1c-49c0-907f-0d92995697ef	FloWinEcs	HearWind	Flower	GreatlyHappy	1	0
