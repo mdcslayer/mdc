@@ -10,10 +10,4 @@
   "IsInsideCreat": false,
   "Previews": ["law_stages.png", "law_tree.png", "mod_pills.png"],
   "ParentModInfo": null
-}  "Version": 1.1,
-  "Author": "mdcslayer",
-  "IncreasedDesc": "1.0.0\n- Initial release\n- Added OP laws, pills, items, and reincarnators\n1.0.1\n- The legacy artifact will now properly reduce the spell-casting delay, instead of increasing it.\n1.0.2\n- Fixed added manuals drop rate\n- Updated the law adventure\n- Updated the secret\n- fixed more typos\n1.1.0\n- added new traits\n- added new reincarnators",
-  "IsInsideCreat": false,
-  "Previews": ["law_stages.png", "law_tree.png", "mod_pills.png"],
-  "ParentModInfo": null
 }

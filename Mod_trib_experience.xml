@@ -24,7 +24,7 @@
 		<Hide>0</Hide>
 		<RaceKind>Human</RaceKind>
 		<Gongs>
-			<li>Mod_bl_gong1</li>
+			<li>Mod_trib_gong1</li>
 		</Gongs>
 		<Items>
 			<li Name="Item_Dan_TreeEXP" Count="99"/>

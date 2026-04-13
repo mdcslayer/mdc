@@ -160,19 +160,5 @@
 		</Properties>
 	</Modifier>
 
-</List></ModifierDefs>ndensed Void Lightning - GODLY</DisplayName>
-		<Desc>ULTIMATE cultivation and combat boost. Infinite duration.</Desc>
-		<MaxStack>999</MaxStack>
-		<Duration>-1</Duration>
-		<Display>1</Display>
-		<Sync>1</Sync>
-		<Properties>
-			<li Name="DeepPracticeSpeedSpecialCoefficient" BAddV="100"/>
-			<li Name="LingAbsorbSpeed" AddP="9999"/>
-			<li Name="NpcFight_SpellPowerAddP" AddP="100"/>
-			<li Name="NpcFight_FabaoPowerAddP" AddP="100"/>
-			<li Name="MaxAge" AddV="1000"/>
-		</Properties>
-	</Modifier>
 
 </List></ModifierDefs>
