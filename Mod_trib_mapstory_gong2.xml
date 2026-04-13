@@ -1,0 +1,62 @@
+<Stories><List>
+
+	<Story Name="Mod_trib_story_gong2" Parent="BaseFillingStory">
+		<DisplayName>Ancient Sovereign's Ruins</DisplayName>
+		<Desc>[NAME] came to [PLACE] and discovered something extraordinary. The ruins of an ancient sovereign's cultivation chamber lie buried beneath the earth — a cultivator of unparalleled power who once ruled over an entire world of sects. The aura is overwhelming, pressing down like a mountain, yet there is also a strange invitation within it, as if the ancient sovereign is waiting for a worthy successor.</Desc>
+		<Selections>
+			<li>
+				<Display>Endure the sovereign pressure and enter the ruins</Display>
+				<Condition>
+				<![CDATA[
+				me:GetGLevel() >= 1
+				]]>
+				</Condition>
+				<Tip>Physique and Luck</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg(XT("[NAME] pushed against the sovereign aura with sheer willpower and broke through into the inner chamber. The ancient sovereign's cultivation jade — containing the entire Sect Sovereign Dao — shattered upon contact and poured its knowledge directly into [NAME]'s mind. The sovereign's voice echoed: 'You are worthy. Rule them all.'"));
+				me:DropAwardItem("Item_LingCrystal", 999);
+				me:DropAwardItem("Mod_trib_item_condensedtribulationpill", 99);
+				me:DropAwardItem("Item_ThunderAir", 99);
+				me:DropAwardItem("Item_LingStone", 9999);
+				me:UnLockGong("Mod_trib_gong2");
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg(XT("[NAME] struggled against the sovereign pressure but was eventually repelled. [NAME] managed to grab some scattered treasures near the entrance before retreating."));
+				me:DropAwardItem("Item_LingCrystal", 99);
+				me:DropAwardItem("Item_LingStone", 999);
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>Harmonize the spirit with the sovereign's will</Display>
+				<Tip>Spirit and Luck</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg(XT("[NAME] reached out with [ENHERS] primordial spirit and harmonized perfectly with the ancient sovereign's will. The ruins recognized [NAME] as the destined successor, and the Sect Sovereign Dao, all the sovereign's hidden treasures, and the legacy of a god-king flowed into [NAME] without reservation. The ancient voice whispered: 'The sects are yours to command — or destroy.'"));
+				me:DropAwardItem("Mod_trib_item_condensedtribulationpill", 99);
+				me:DropAwardItem("Item_ThunderAir", 199);
+				me:DropAwardItem("Item_LingCrystal", 999);
+				me:DropAwardItem("Item_LingStone", 9999);
+				me:DropAwardItem("Mod_trib_item_fivecolorspill", 99);
+				me:UnLockGong("Mod_trib_gong2");
+				me:AddModifier("Mod_trib_modifiers_fivecolorspill");
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Leave — the power here is too dangerous</Display>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg(XT("After careful consideration, [NAME] decided not to challenge the sovereign's aura and left the ruins undisturbed."));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+</List></Stories>

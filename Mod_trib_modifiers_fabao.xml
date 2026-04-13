@@ -36,5 +36,56 @@
 			<li Name="NpcFight_ShieldResistanceToShui" AddV="100"/>
 		</Properties>
 	</Modifier>
+	<Modifier Name="Mod_trib_modifiers_fabao_heavenrendingsword" Type="Normal">
+		<DisplayName>Heaven-Rending Sword - OMNIPOTENT BLADE</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_Attack" AddV="999999999"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="9999999"/>
+			<li Name="NpcFight_CritRateAddP" AddP="100"/>
+			<li Name="NpcFight_CritDamageAddP" AddP="99999"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="9999999"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="9999"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="9999"/>
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="9999"/>
+			<li Name="NpcFight_HP" AddV="999999999"/>
+			<li Name="NpcFight_Defense" AddV="999999999"/>
+			<li Name="NpcFight_DodgeRateAddP" AddP="99"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-1.0"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-1.0"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.99"/>
+			<li Name="MaxAge" AddV="9999999"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_fabao_sectdestroyer" Type="Normal">
+		<DisplayName>Sect-Destroyer Talisman - SECT ANNIHILATOR</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="9999999"/>
+			<li Name="NpcFight_Attack" AddV="999999999"/>
+			<li Name="NpcFight_Defense" AddV="999999999"/>
+			<li Name="NpcFight_HP" AddV="999999999"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="9999"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="999"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="999"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="999"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="999"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="999"/>
+			<li Name="NpcFight_CritRateAddP" AddP="100"/>
+			<li Name="NpcFight_CritDamageAddP" AddP="99999"/>
+			<li Name="NpcFight_DodgeRateAddP" AddP="99"/>
+			<li Name="PainTolerance" AddP="9999999"/>
+			<li Name="RecoveryPower" AddP="9999999"/>
+			<li Name="LingAbsorbSpeed" AddP="9999999"/>
+			<li Name="MaxAge" AddV="9999999"/>
+		</Properties>
+	</Modifier>
 
 </List></ModifierDefs>

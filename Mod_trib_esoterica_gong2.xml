@@ -1,0 +1,288 @@
+<Esotericas><List>
+
+<!-- ============================================ -->
+<!-- QI SENSING -->
+<!-- ============================================ -->
+
+	<Esoterica Name="Mod_trib_gong2_sovereignqi">
+		<DisplayName>Sovereign Qi</DisplayName>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Ignite the sovereign qi current within. Energy overflows, fatigue ceases to exist, and the body never tires.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Stamina Conversion Rate and Energy.\nVirtually eliminates Fatigue.\nBoosts Max Qi.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_sovereignqi</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong2_sovereignstrike">
+		<DisplayName>Sovereign Strike</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Channel sovereign power into every strike. Max Qi becomes virtually infinite and Qi absorption transcends all limits.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Max Qi.\nGreatly increases Qi Absorption Speed.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_sovereignstrike</Modifier>
+	</Esoterica>
+
+<!-- ============================================ -->
+<!-- CORE SHAPING -->
+<!-- ============================================ -->
+
+	<Esoterica Name="Mod_trib_gong2_sovereignbody">
+		<DisplayName>Sovereign Body</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Temper the body with sovereign power. All five elements attune perfectly. HP becomes godlike. Qi recovery becomes instantaneous.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Boosts all Five Elements massively.\nMassively increases Qi Absorption Speed.\nGreatly increases HP.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_sovereignbody</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong2_sovereigncauldron">
+		<DisplayName>Sovereign Cauldron</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Expand the Inner Cauldron with sovereign energy. The sovereign's Qi reserves are truly infinite — no ceiling can contain this power.</Desc>
+		<Hide>2</Hide>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Inner Cauldron becomes virtually infinite.\nMassively increases Max Qi.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_sovereigncauldron</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong2_sovereignpotential">
+		<DisplayName>Sovereign Potential</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Unlock the sovereign's infinite potential. Cultivation speed reaches an incomprehensible level. Heaven's condemnation is irrelevant.</Desc>
+		<Hide>2</Hide>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Boosts all Five Elements.\nMaximizes Potential.\nMassively increases Cultivation Speed.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_sovereignpotential</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong2_sovereignmantra">
+		<DisplayName>Sovereign Mantra</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Meditate on the sovereign dao, accelerating cultivation beyond all mortal understanding. Spell power rises to devastating levels.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Cultivation Speed.\nBoosts Spell Power.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_sovereignmantra</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong2_sovereignpill">
+		<DisplayName>Sovereign Compression Pill</DisplayName>
+		<Icon>res/Sprs/ui/icon_liandan</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>A pill forged from condensed sovereign Qi. Fills the Inner Cauldron effortlessly without any side effects.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>[size=10][color=#D06508]Acquire the following elixir recipe: \nQi Compression Pill[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Mod_trib_formula_qicompressionpill</li>
+		</Dans>
+	</Esoterica>
+
+<!-- ============================================ -->
+<!-- GOLDEN CORE -->
+<!-- ============================================ -->
+
+	<Esoterica Name="Mod_trib_gong2_sovereignshield">
+		<DisplayName>Sovereign Shield</DisplayName>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Envelop the body in an impenetrable sovereign barrier. Nothing can breach the shield of a sect sovereign.</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Barrier</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Qi Shield effectiveness.\nMassively increases Defense.\nMassively increases Recovery.\nPain is meaningless.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_sovereignshield</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong2_sovereigntempest">
+		<DisplayName>Sovereign Tempest</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Create an eternal sovereign storm in your core. The tempest devours enemy power and feeds it back as unstoppable attack.</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Max Qi.\nMassively increases Attack.\nMassively increases Spell Power.\nMassively increases HP.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_sovereigntempest</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong2_sovereignstep">
+		<DisplayName>Sovereign Step</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Move with the authority of a sovereign — crossing vast distances in an instant, impossible to pin down.</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Movement and Flying Speed.\nGreatly increases Dodge Rate.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_sovereignstep</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong2_sectpill">
+		<DisplayName>Sect-Razing Pills</DisplayName>
+		<Icon>res/Sprs/ui/icon_liandan</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Pills forged from the distilled power of fallen sects. Grant total immunity to all five elements.</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>[size=10][color=#D06508]Acquire the following elixir recipes: \nWater Restraining Pill\nFire Restraining Pill\nMetal Restraining Pill\nWood Restraining Pill\nEarth Restraining Pill[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Mod_trib_formula_waterrestrainingpill</li>
+			<li>Mod_trib_formula_firerestrainingpill</li>
+			<li>Mod_trib_formula_metalrestrainingpill</li>
+			<li>Mod_trib_formula_woodrestrainingpill</li>
+			<li>Mod_trib_formula_earthrestrainingpill</li>
+		</Dans>
+	</Esoterica>
+
+<!-- ============================================ -->
+<!-- PRIMORDIAL SPIRIT -->
+<!-- ============================================ -->
+
+	<Esoterica Name="Mod_trib_gong2_sectbreaker">
+		<DisplayName>Sect Breaker</DisplayName>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Harness the sovereign's absolute authority over all cultivators. Your Qi and defenses transcend divine limits. Sects crumble at your approach.</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Barrier</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Max Qi and Shield.\nMassively increases Defense and HP.\nGreatly extends Lifespan.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_sectbreaker</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong2_sovereignincantation">
+		<DisplayName>Sovereign Incantation</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Master the sovereign's instantaneous incantation. Spells are cast before enemies can react, cost nothing, and obliterate all in their path.</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]Boosts all Five Elements.\nSpell Cooldown reduced to near zero.\nSpell Cost reduced to zero.\nMassively increases Spell Power.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_sovereignincantation</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong2_sectobliteration">
+		<DisplayName>Sect Obliteration</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Master the sovereign's ultimate offensive art. Your attacks do not merely wound — they erase. Every enemy struck ceases to exist.</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Spell Power and Attack.\nGuaranteed Critical Hits.\nMassively increases Critical Damage.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_sectobliteration</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong2_sovereignartifact">
+		<DisplayName>Legacy Artifact: Heaven-Rending Sword</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Recorded Legacy Artifact: Heaven-Rending Sword crafting recipe. This supreme blade is the sovereign's greatest weapon.</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]Acquire the crafting method of Legacy Artifact: \nHeaven-Rending Sword[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>Mod_trib_formula_heavenrendingsword</li>
+		</Fabaos>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong2_sectdestroyeresoterica">
+		<DisplayName>Legacy Artifact: Sect-Destroyer Talisman</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Recorded Legacy Artifact: Sect-Destroyer Talisman crafting recipe. The ultimate sect-annihilating talisman.</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]Acquire the crafting method of Legacy Artifact: \nSect-Destroyer Talisman[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>Mod_trib_formula_sectdestroyer</li>
+		</Fabaos>
+	</Esoterica>
+
+<!-- ============================================ -->
+<!-- TRIBULATION -->
+<!-- ============================================ -->
+
+	<Esoterica Name="Mod_trib_gong2_sectsovereign">
+		<DisplayName>Sect Sovereign</DisplayName>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Become the sovereign of all sects. Your body, Qi, and spirit transcend all limits. Every cultivator in the realm bows before your sovereign pressure.</Desc>
+		<GLevel>DG</GLevel>
+		<Element>None</Element>
+		<Type>Barrier</Type>
+		<EffectDesc>[size=10][color=#D06508]Boosts all Five Elements to the maximum.\nHP, Defense, Attack become absolute.\nMax Qi becomes infinite.\nGreatly extends Lifespan.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_sectsovereign</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong2_sovereignannihilation">
+		<DisplayName>Sovereign Annihilation</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Unleash the sovereign's full destructive will. Everything touched by this power is erased from existence — sects, armies, mountains alike.</Desc>
+		<GLevel>DG</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]Spell Power reaches infinity.\nGuaranteed Critical Hits with devastating damage.\nDodge becomes absolute.\nPain is completely meaningless.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_sovereignannihilation</Modifier>
+	</Esoterica>
+
+<!-- ============================================ -->
+<!-- IMMORTAL ASCENSION -->
+<!-- ============================================ -->
+
+	<Esoterica Name="Mod_trib_gong2_eternalsovereign">
+		<DisplayName>Eternal Sect Sovereign</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Ascend beyond heaven and earth as the Eternal Sect Sovereign — omnipotent ruler of all cultivators, all sects, all creation. No one in heaven, earth, or the void can challenge your authority.</Desc>
+		<GLevel>Immortal</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]ALL stats become INFINITE.\nAll Five Elements maximized.\nZero Spell cost and cooldown.\nImmortal Lifespan.\nAbsolute Dodge and Critical.\nNo Fatigue. No limits. No equal.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong2_eternalsovereign</Modifier>
+	</Esoterica>
+
+</List></Esotericas>

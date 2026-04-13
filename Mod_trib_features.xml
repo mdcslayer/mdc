@@ -126,6 +126,74 @@
 		</ModifierDef>
 	</Feature>
 
+	<Feature Name="Mod_trib_SectSlayer" Type="Normal">
+		<DisplayName>Sect Slayer</DisplayName>
+		<HideInUI>0</HideInUI>
+		<Desc>A divine killing intent honed across thousands of battlefields. This person is a natural predator of sects — born to destroy them. Their combat power dwarfs entire armies.</Desc>
+		<ModifierDef>
+			<Properties>
+				<li Name="NpcFight_Attack" AddV="9999999"/>
+				<li Name="NpcFight_SpellPowerAddP" AddP="99999"/>
+				<li Name="NpcFight_CritRateAddP" AddP="50"/>
+				<li Name="NpcFight_CritDamageAddP" AddP="5000"/>
+				<li Name="NpcFight_DodgeRateAddP" AddP="50"/>
+				<li Name="NpcFight_HP" AddV="99999999"/>
+				<li Name="NpcFight_Defense" AddV="9999999"/>
+				<li Name="NpcFight_FabaoPowerAddP" AddP="99999"/>
+				<li Name="NpcFight_ShieldConversionRateAddP" AddP="999"/>
+				<li Name="PainTolerance" AddP="99999"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="Mod_trib_PrimordialGodBody" Type="Normal">
+		<DisplayName>Primordial God Body</DisplayName>
+		<HideInUI>0</HideInUI>
+		<Desc>A legendary divine physique that appears only once in ten thousand generations. Every element resonates perfectly with this body, cultivation is effortless, and the lifespan is virtually eternal.</Desc>
+		<ModifierDef>
+			<BaseFive>10,10,10,10,10</BaseFive>
+			<Properties>
+				<li Name="NpcFight_HP" AddV="999999999"/>
+				<li Name="NpcFight_Defense" AddV="99999999"/>
+				<li Name="RecoveryPower" AddP="99999"/>
+				<li Name="LingAbsorbSpeed" AddP="999999"/>
+				<li Name="MaxAge" AddV="9999999"/>
+				<li Name="PotentialOfBasepracticeAddValue" AddV="999999"/>
+				<li Name="BodyPratice_QuenchingSpeed" BAddP="99"/>
+				<li Name="MagicDamageRecoveryPowerAddV" AddV="999999"/>
+				<li Name="GongMatch_JinAddV" AddV="5.0"/>
+				<li Name="GongMatch_HuoAddV" AddV="5.0"/>
+				<li Name="GongMatch_MuAddV" AddV="5.0"/>
+				<li Name="GongMatch_ShuiAddV" AddV="5.0"/>
+				<li Name="GongMatch_TuAddV" AddV="5.0"/>
+				<li Name="GongMatch_NoneAddV" AddV="5.0"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="Mod_trib_HeavensNemesis" Type="Normal">
+		<DisplayName>Heaven's Nemesis</DisplayName>
+		<HideInUI>0</HideInUI>
+		<Desc>Heaven itself trembles before this soul. Every tribulation is absorbed as nourishment. The Heavenly Dao acknowledges this person as its superior — spells cost nothing, cultivation is instant, and immortality is guaranteed.</Desc>
+		<ModifierDef>
+			<BaseFive>0,0,0,0,50</BaseFive>
+			<Properties>
+				<li Name="MaxAccumulativeLingAddV" AddV="999999999"/>
+				<li Name="NpcLingMaxValue" BAddP="99999"/>
+				<li Name="BasepracticeSpeedCoefficient" AddP="9999"/>
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="9999"/>
+				<li Name="GodPenaltyAddV" AddV="99"/>
+				<li Name="LifeSpanAddV" AddV="9999999"/>
+				<li Name="NpcFight_SpellPowerAddP" AddP="999999"/>
+				<li Name="NpcFight_SpellCoolDownAddP" AddP="-1.0"/>
+				<li Name="NpcFight_SpellLingCostAddP" AddP="-1.0"/>
+				<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.99"/>
+				<li Name="FatigueConsumeConstant" BAddP="-1.0"/>
+				<li Name="FatigueRecoveryConstant" AddP="9999"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
 	<Feature Name="Mod_AsuraBlood" Type="Normal">
 		<DisplayName>Asura Blood</DisplayName>
 		<Desc>This person has powerful asura blood coursing through their veins, making [ENHIM] incredibly resilient and supremely suited to physical cultivation.</Desc>

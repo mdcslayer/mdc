@@ -1,0 +1,236 @@
+<ModifierDefs><List>
+
+<!-- ============================================ -->
+<!-- QI SENSING -->
+<!-- ============================================ -->
+
+	<Modifier Name="Mod_trib_modifiers_gong2_sovereignqi" Type="Normal">
+		<DisplayName>Sovereign Qi - GODLY</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NutritionToJingYuanK" AddP="200"/>
+			<li Name="FatigueConsumeConstant" BAddP="-0.99"/>
+			<li Name="FatigueRecoveryConstant" AddP="999"/>
+			<li Name="NpcLingMaxValue" BAddP="50"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong2_sovereignstrike" Type="Normal">
+		<DisplayName>Sovereign Strike - INFINITE QI</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddP="500"/>
+			<li Name="LingAbsorbSpeed" AddP="9999"/>
+		</Properties>
+	</Modifier>
+
+<!-- ============================================ -->
+<!-- CORE SHAPING -->
+<!-- ============================================ -->
+
+	<Modifier Name="Mod_trib_modifiers_gong2_sovereignbody" Type="Normal">
+		<DisplayName>Sovereign Body - GODLY</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>10,20,10,10,10</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="99999"/>
+			<li Name="NpcFight_HP" AddV="9999999"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong2_sovereigncauldron" Type="Normal">
+		<DisplayName>Sovereign Cauldron - INFINITE</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAccumulativeLingAddV" AddV="999999999"/>
+			<li Name="NpcLingMaxValue" BAddP="9999"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong2_sovereignpotential" Type="Normal">
+		<DisplayName>Sovereign Potential - MAX POTENTIAL</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>10,10,10,10,50</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="9999999"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="9999"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong2_sovereignmantra" Type="Normal">
+		<DisplayName>Sovereign Mantra - INFINITE SPEED</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="99999"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="9999"/>
+		</Properties>
+	</Modifier>
+
+<!-- ============================================ -->
+<!-- GOLDEN CORE -->
+<!-- ============================================ -->
+
+	<Modifier Name="Mod_trib_modifiers_gong2_sovereignshield" Type="Normal">
+		<DisplayName>Sovereign Shield - INDESTRUCTIBLE</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="9999"/>
+			<li Name="RecoveryPower" AddP="999999"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="9999999"/>
+			<li Name="PainTolerance" AddP="9999999"/>
+			<li Name="NpcFight_Defense" AddV="999999999"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong2_sovereigntempest" Type="Normal">
+		<DisplayName>Sovereign Tempest - SECT DESTROYER</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddP="9999"/>
+			<li Name="NpcFight_Attack" AddV="999999999"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="999999"/>
+			<li Name="NpcFight_HP" AddV="999999999"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong2_sovereignstep" Type="Normal">
+		<DisplayName>Sovereign Step - TRANSCENDENT SPEED</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MoveSpeed" AddP="99999"/>
+			<li Name="WorldMapFlySpeedAddP" AddV="99999"/>
+			<li Name="NpcFight_DodgeRateAddP" AddP="99"/>
+		</Properties>
+	</Modifier>
+
+<!-- ============================================ -->
+<!-- PRIMORDIAL SPIRIT -->
+<!-- ============================================ -->
+
+	<Modifier Name="Mod_trib_modifiers_gong2_sectbreaker" Type="Normal">
+		<DisplayName>Sect Breaker - ABSOLUTE AUTHORITY</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="999999"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="9999"/>
+			<li Name="NpcFight_Defense" AddV="9999999999"/>
+			<li Name="NpcFight_HP" AddV="9999999999"/>
+			<li Name="LifeSpanAddV" AddV="9999999"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong2_sovereignincantation" Type="Normal">
+		<DisplayName>Sovereign Incantation - FREE INSTANT SPELLS</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>20,20,20,50,20</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-1.0"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-1.0"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.99"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="9999999"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong2_sectobliteration" Type="Normal">
+		<DisplayName>Sect Obliteration - ONE SOVEREIGN, ZERO SECT</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="9999999"/>
+			<li Name="NpcFight_Attack" AddV="9999999999"/>
+			<li Name="NpcFight_CritRateAddP" AddP="100"/>
+			<li Name="NpcFight_CritDamageAddP" AddP="999999"/>
+		</Properties>
+	</Modifier>
+
+<!-- ============================================ -->
+<!-- TRIBULATION -->
+<!-- ============================================ -->
+
+	<Modifier Name="Mod_trib_modifiers_gong2_sectsovereign" Type="Normal">
+		<DisplayName>Sect Sovereign - RULER OF ALL SECTS</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>50,50,50,50,50</BaseFive>
+		<Properties>
+			<li Name="NpcFight_HP" AddV="9999999999"/>
+			<li Name="NpcFight_Defense" AddV="9999999999"/>
+			<li Name="NpcFight_Attack" AddV="9999999999"/>
+			<li Name="NpcLingMaxValue" BAddP="999999"/>
+			<li Name="LifeSpanAddV" AddV="9999999"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong2_sovereignannihilation" Type="Normal">
+		<DisplayName>Sovereign Annihilation - ERASE EXISTENCE</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="9999999"/>
+			<li Name="NpcFight_CritRateAddP" AddP="100"/>
+			<li Name="NpcFight_CritDamageAddP" AddP="9999999"/>
+			<li Name="NpcFight_DodgeRateAddP" AddP="100"/>
+			<li Name="PainTolerance" AddP="9999999"/>
+		</Properties>
+	</Modifier>
+
+<!-- ============================================ -->
+<!-- IMMORTAL ASCENSION -->
+<!-- ============================================ -->
+
+	<Modifier Name="Mod_trib_modifiers_gong2_eternalsovereign" Type="Normal">
+		<DisplayName>Eternal Sect Sovereign - OMNIPOTENT RULER</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>99,99,99,99,99</BaseFive>
+		<Properties>
+			<li Name="NpcFight_HP" AddV="9999999999"/>
+			<li Name="NpcFight_Defense" AddV="9999999999"/>
+			<li Name="NpcFight_Attack" AddV="9999999999"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="9999999"/>
+			<li Name="NpcLingMaxValue" BAddP="9999999"/>
+			<li Name="LingAbsorbSpeed" AddP="9999999"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-1.0"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-1.0"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.99"/>
+			<li Name="MoveSpeed" AddP="9999999"/>
+			<li Name="LifeSpanAddV" AddV="9999999"/>
+			<li Name="RecoveryPower" AddP="9999999"/>
+			<li Name="NpcFight_CritRateAddP" AddP="9999"/>
+			<li Name="NpcFight_CritDamageAddP" AddP="9999999"/>
+			<li Name="NpcFight_DodgeRateAddP" AddP="9999"/>
+			<li Name="FatigueConsumeConstant" BAddP="-1.0"/>
+			<li Name="MaxAge" AddV="9999999"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="9999999"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="9999999"/>
+			<li Name="PainTolerance" AddP="9999999"/>
+		</Properties>
+	</Modifier>
+
+</List></ModifierDefs>

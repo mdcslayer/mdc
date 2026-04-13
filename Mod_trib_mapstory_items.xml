@@ -87,6 +87,16 @@
 			<Count>99</Count>
 			<Rate>1</Rate>
 		</li>
+		<li>
+			<ThingDef>Mod_trib_item_heavenrendingsword</ThingDef>
+			<Count>1</Count>
+			<Rate>1</Rate>
+		</li>
+		<li>
+			<ThingDef>Mod_trib_item_sectdestroyer</ThingDef>
+			<Count>1</Count>
+			<Rate>1</Rate>
+		</li>
 	</ItemCache4>
 
 </List></Stories>
