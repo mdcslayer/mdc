@@ -1,0 +1,230 @@
+<ModifierDefs><List>
+
+<!-- ============================================ -->
+<!-- QI SENSING -->
+<!-- ============================================ -->
+
+	<Modifier Name="Mod_trib_modifiers_gong1_blackcurrent" Type="Normal">
+		<DisplayName>Black Current - GODLY</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NutritionToJingYuanK" AddP="50"/>
+			<li Name="FatigueConsumeConstant" BAddP="-0.99"/>
+			<li Name="FatigueRecoveryConstant" AddP="100"/>
+			<li Name="NpcLingMaxValue" BAddP="10"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_voidstrike" Type="Normal">
+		<DisplayName>Void Strike - INFINITE QI</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddP="50"/>
+			<li Name="LingAbsorbSpeed" AddP="100"/>
+		</Properties>
+	</Modifier>
+
+<!-- ============================================ -->
+<!-- CORE SHAPING -->
+<!-- ============================================ -->
+
+	<Modifier Name="Mod_trib_modifiers_gong1_blackpulse" Type="Normal">
+		<DisplayName>Black Pulse - GODLY</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>5,10,5,5,5</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="5000"/>
+			<li Name="NpcFight_HP" AddV="50000"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_abyssalcauldron" Type="Normal">
+		<DisplayName>Abyssal Cauldron - INFINITE</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAccumulativeLingAddV" AddV="99999999"/>
+			<li Name="NpcLingMaxValue" BAddP="100"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_voidconduction" Type="Normal">
+		<DisplayName>Void Conduction - MAX POTENTIAL</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>5,5,5,5,20</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="99999"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="50"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_blackmantra" Type="Normal">
+		<DisplayName>Black Mantra - INFINITE SPEED</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="500"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="100"/>
+		</Properties>
+	</Modifier>
+
+<!-- ============================================ -->
+<!-- GOLDEN CORE -->
+<!-- ============================================ -->
+
+	<Modifier Name="Mod_trib_modifiers_gong1_voidshield" Type="Normal">
+		<DisplayName>Void Shield - GODLY</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="50"/>
+			<li Name="RecoveryPower" AddP="100"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="1000"/>
+			<li Name="PainTolerance" AddP="999"/>
+			<li Name="NpcFight_Defense" AddV="50000"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_abyssaltempest" Type="Normal">
+		<DisplayName>Abyssal Tempest - BROKEN</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddP="100"/>
+			<li Name="NpcFight_Attack" AddV="500000"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="5000"/>
+			<li Name="NpcFight_HP" AddV="500000"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_voidstep" Type="Normal">
+		<DisplayName>Void Step - TELEPORT</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MoveSpeed" AddP="1000"/>
+			<li Name="WorldMapFlySpeedAddP" AddV="500"/>
+			<li Name="NpcFight_DodgeRateAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+
+<!-- ============================================ -->
+<!-- PRIMORDIAL SPIRIT -->
+<!-- ============================================ -->
+
+	<Modifier Name="Mod_trib_modifiers_gong1_heavenbreaker" Type="Normal">
+		<DisplayName>Heaven Breaker - ULTIMATE</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="1000"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="100"/>
+			<li Name="NpcFight_Defense" AddV="999999"/>
+			<li Name="NpcFight_HP" AddV="9999999"/>
+			<li Name="LifeSpanAddV" AddV="99999"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_voidincantation" Type="Normal">
+		<DisplayName>Void Incantation - FREE SPELLS</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>10,10,10,20,10</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.99"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-1.0"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="10000"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_blackfulmination" Type="Normal">
+		<DisplayName>Black Fulmination - ONE SHOT</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="50000"/>
+			<li Name="NpcFight_Attack" AddV="9999999"/>
+			<li Name="NpcFight_CritRateAddP" AddP="10"/>
+			<li Name="NpcFight_CritDamageAddP" AddP="100"/>
+		</Properties>
+	</Modifier>
+
+<!-- ============================================ -->
+<!-- TRIBULATION -->
+<!-- ============================================ -->
+
+	<Modifier Name="Mod_trib_modifiers_gong1_stormsovereign" Type="Normal">
+		<DisplayName>Storm Sovereign - GODSLAYER</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>20,20,20,20,20</BaseFive>
+		<Properties>
+			<li Name="NpcFight_HP" AddV="99999999"/>
+			<li Name="NpcFight_Defense" AddV="9999999"/>
+			<li Name="NpcFight_Attack" AddV="99999999"/>
+			<li Name="NpcLingMaxValue" BAddP="1000"/>
+			<li Name="LifeSpanAddV" AddV="999999"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_voidannihilation" Type="Normal">
+		<DisplayName>Void Annihilation - ERASE ALL</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="999999"/>
+			<li Name="NpcFight_CritRateAddP" AddP="100"/>
+			<li Name="NpcFight_CritDamageAddP" AddP="9999"/>
+			<li Name="NpcFight_DodgeRateAddP" AddP="100"/>
+			<li Name="PainTolerance" AddP="99999"/>
+		</Properties>
+	</Modifier>
+
+<!-- ============================================ -->
+<!-- IMMORTAL ASCENSION -->
+<!-- ============================================ -->
+
+	<Modifier Name="Mod_trib_modifiers_gong1_blacklightninggod" Type="Normal">
+		<DisplayName>Black Lightning God - OMNIPOTENT</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>99,99,99,99,99</BaseFive>
+		<Properties>
+			<li Name="NpcFight_HP" AddV="999999999"/>
+			<li Name="NpcFight_Defense" AddV="999999999"/>
+			<li Name="NpcFight_Attack" AddV="999999999"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="9999999"/>
+			<li Name="NpcLingMaxValue" BAddP="99999"/>
+			<li Name="LingAbsorbSpeed" AddP="999999"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-1.0"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-1.0"/>
+			<li Name="MoveSpeed" AddP="99999"/>
+			<li Name="LifeSpanAddV" AddV="9999999"/>
+			<li Name="RecoveryPower" AddP="99999"/>
+			<li Name="NpcFight_CritRateAddP" AddP="999"/>
+			<li Name="NpcFight_CritDamageAddP" AddP="99999"/>
+			<li Name="NpcFight_DodgeRateAddP" AddP="999"/>
+			<li Name="FatigueConsumeConstant" BAddP="-1.0"/>
+		</Properties>
+	</Modifier>
+
+</List></ModifierDefs>

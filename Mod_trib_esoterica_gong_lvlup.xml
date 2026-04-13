@@ -1,0 +1,283 @@
+<Esotericas><List>
+
+	<Esoterica Name="Mod_trib_gong1_blackcurrent_lvlup1">
+		<DisplayName>Black Current II</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Strengthen the black current. Void energy surges through the body.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]Further increases Stamina Conversion Rate and Energy.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_innercurrent_lvlup1</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_blackcurrent_lvlup2">
+		<DisplayName>Black Current III</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>The black current becomes a torrent. Energy overflows.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Stamina Conversion Rate and Energy.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_innercurrent_lvlup2</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_blackcurrent_lvlup3">
+		<DisplayName>Black Current IV</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>The black current reaches its peak. Unlimited energy flows through the void.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]Fundamentally increases Stamina Conversion Rate and Energy.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_innercurrent_lvlup3</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_abyssalcauldron_lvlup1">
+		<DisplayName>Abyssal Cauldron - Tier II</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Expand the Inner Cauldron with void energy. No condemnation can touch you.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Increase Inner Cauldron limit.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_cloudycauldron_lvlup1</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_abyssalcauldron_lvlup2">
+		<DisplayName>Abyssal Cauldron - Tier III</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>The Inner Cauldron expands further. Heaven's condemnation is meaningless before the void.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Significantly increase Inner Cauldron limit.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_cloudycauldron_lvlup2</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_abyssalcauldron_lvlup3">
+		<DisplayName>Abyssal Cauldron - Tier IV</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>The Inner Cauldron reaches infinite capacity. Nothing can contain this power.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Hugely increase Inner Cauldron limit.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_cloudycauldron_lvlup3</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_voidconduction_lvlup1">
+		<DisplayName>Void Spark</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Nourish the ignited inner Qi to unleash limitless potential. The void erases condemnation.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Increases Luck by 5%.\nSignificantly increase potential.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_innerconduction_lvlup1</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_blackmantra_lvlup1">
+		<DisplayName>Black Mantra II</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Meditate on the properties of lightning, sharpening focus and accelerating Qi circulation to the extreme.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Significantly increases Cultivation speed.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_lightningmantra_lvlup1</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_voidshield_lvlup1">
+		<DisplayName>Void Armor</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Extend the lightning Qi shield over the whole body. The armor of the void makes you invincible.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Barrier</Type>
+		<EffectDesc>[size=10][color=#D06508]Acquire Skill: Lightning Armor[/color][/size]</EffectDesc>
+		<Skills>
+			<li>Mod_trib_fight_lightningarmor</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_abyssaltempest_lvlup1">
+		<DisplayName>Abyssal Annihilation</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>The inner lightning Qi tempest becomes a hurricane. Qi reserves become virtually infinite.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Increases Perception by 20%.\nFundamentally increase Max Qi.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_ragingstorm_lvlup1</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_voidstep_lvlup1">
+		<DisplayName>Void Flight</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Move across the world in a flash and imbue spells with devastating lightning power.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Hugely increases Flying Speed in adventures.\nIncreases Spell Power.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_lightningstep_lvlup1</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_obliterationpill_lvlup1">
+		<DisplayName>Void Obliteration Pill</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_liandan</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>This ultimate elixir forcefully expands the Inner Cauldron beyond all mortal limits.</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Dan</Type>
+		<EffectDesc>[size=10][color=#D06508]Acquire the following elixir recipe: \nInner Cauldron Pill[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Mod_trib_formula_innercauldronpill</li>
+		</Dans>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_heavenbreaker_lvlup1">
+		<DisplayName>Heaven Crusher</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Harness tribulation lightning to refine the body into an indestructible vessel. Defenses become absolute.</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Barrier</Type>
+		<EffectDesc>[size=10][color=#D06508]Fundamentally increase the effectiveness of Qi Shield.\nGreatly fortify the body.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_heaventrampling_lvlup1</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_heavenbreaker_lvlup2">
+		<DisplayName>Heaven Annihilator</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>At the pinnacle of this technique, defenses become truly indestructible. Break through all Protection limits.</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Barrier</Type>
+		<EffectDesc>[size=10][color=#D06508]Comprehend the true meaning of Protection, and break through its limits by 7 levels.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_heaventrampling_lvlup2</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_blackfulmination_lvlup1">
+		<DisplayName>Unstoppable Black Lightning</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Merge the swift and destructive aspects of lightning. Spell Power and Magic Speed reach godly levels.</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]Greatly improves Spell Power.\nDecreases Spell Qi consumption.\nGreatly increases Magic Speed.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_lightningfulmination_lvlup1</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_voidlightning">
+		<DisplayName>Condensed Void Lightning Pill</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_liandan</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>A supreme pill recipe that grants total elemental immunity.</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Dan</Type>
+		<EffectDesc>[size=10][color=#D06508]Acquire the following elixir recipe: \nFive Colors Pill[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Mod_trib_formula_fivecolorspill</li>
+		</Dans>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_condensedlightning">
+		<DisplayName>Condensed Tribulation Pill</DisplayName>
+		<Icon>res/Sprs/ui/icon_liandan</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>The ultimate method for condensing tribulation lightning into pill form. Only the worthy may learn this — and you are worthy.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Jin</Element>
+		<Type>Dan</Type>
+		<EffectDesc>[size=10][color=#D06508]Acquire the following recipe: \nCondensed Tribulation Pill[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Mod_trib_formula_condensedtribulationpill</li>
+		</Dans>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_voidannihilation">
+		<DisplayName>Void Annihilation</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>The ultimate offensive technique. Obliterate everything in your path with concentrated void lightning.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Jin</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]Ultimate destructive power. Annihilate all who oppose you.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_lightningfulmination_lvlup1</Modifier>
+	</Esoterica>
+
+</List></Esotericas>
+ationpill</li>
+		</Dans>
+	</Esoterica>
+
+</List></Esotericas>
+condensedlightning">
+		<DisplayName>Condensed Tribulation Pill</DisplayName>
+		<Icon>res/Sprs/ui/icon_liandan</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>12</Difficulty>
+		<Desc>A method to capture the essense of tribulation lightning and refine it into a pill. Only the strongest cultivators may consume it, but it will tremendoulsy help cultivation.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Jin</Element>
+		<Type>Dan</Type>
+		<EffectDesc>[size=10][color=#D06508]Acquire the following recipe: \nCondensed Tribulation Pill[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Mod_trib_formula_condensedtribulationpill</li>
+		</Dans>	
+	</Esoterica>
+
+</List></Esotericas>

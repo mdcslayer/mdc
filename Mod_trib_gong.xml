@@ -1,0 +1,269 @@
+<Gongs><List>
+
+	<Gong Name="Mod_trib_gong1">
+		<DisplayName>Black Lightning Dao</DisplayName>
+		<Desc>A forbidden law born from the void between heaven and earth. The Black Lightning Dao devours all elements and bends tribulation itself to the cultivator's will. Those who walk this path become unstoppable forces of destruction — immune to heaven's wrath and feared by immortals.</Desc>
+		<SelectDesc>This path grants absolute power over all creation. Heaven itself will tremble. Are you sure you want to follow this Law?</SelectDesc>
+		<FiveBaseNeed>0,0,0,0,0</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>Jin</ElementKind>
+		<Hide>0</Hide>
+		<Skill>
+			<li>jiangdao</li>
+			<li>ciqi</li>
+			<li>bihu</li>
+		</Skill>
+
+		<Stages>
+
+			<Stage Name="Mod_trib_law_stage1" Level="5">
+				<DisplayName>Black Spark</DisplayName>
+				<Desc>Ignite the black lightning within. Instantly purify the body and awaken dormant potential.</Desc>
+				<Value>10</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Void Ignition</DisplayName>
+						<Desc>Ignite a spark of black lightning Qi. The void answers all who call.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier></AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>Black Purification</DisplayName>
+						<Desc>Purify the body with black lightning. No pain, only power.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Mod_trib_law_stage2" Level="7">
+				<DisplayName>Black Tempering</DisplayName>
+				<Desc>Temper the body with black lightning and shatter the first tribulation effortlessly.</Desc>
+				<Value>20</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Black Integration</DisplayName>
+						<Desc>Black lightning merges with the body. No medicine needed.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Mod_trib_modifiers_trib1</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>Shadow Tribulation</DisplayName>
+						<Desc>The tribulation is nothing. Devour it.</Desc>
+						<NeckCountdown>4200</NeckCountdown>
+						<ThunderValue>10</ThunderValue>
+						<AddModifier></AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Mod_trib_law_stage3" Level="9">
+				<DisplayName>Black Core Formation</DisplayName>
+				<Desc>Forge a Golden Core of pure black lightning. Unbreakable and absolute.</Desc>
+				<Value>40</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Black Assimilation</DisplayName>
+						<Desc>Assimilate the void's power. The body becomes a vessel of destruction.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier></AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>Abyssal Core</DisplayName>
+						<Desc>The Golden Core forms — darker than the void, harder than heaven.</Desc>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Mod_trib_law_stage4" Level="10">
+				<DisplayName>Black Lightning Ascent</DisplayName>
+				<Desc>The nascent self awakens, crackling with black lightning.</Desc>
+				<Value>80</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Void Sacrament</DisplayName>
+						<Desc>The void blesses the cultivator. No pills. No cost. Only power.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Mod_trib_modifiers_trib2</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>Mortal Annihilation</DisplayName>
+						<Desc>The mortal tribulation is absorbed like a gentle breeze.</Desc>
+						<NeckCountdown>4200</NeckCountdown>
+						<ThunderValue>20</ThunderValue>
+						<AddModifier></AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Mod_trib_law_stage5" Level="11">
+				<DisplayName>Black Lightning Dominion</DisplayName>
+				<Desc>Golden lightning bows before black lightning. The nascent self emerges all-powerful.</Desc>
+				<Value>150</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Dominion Forging</DisplayName>
+						<Desc>The nascent self is forged in absolute black lightning.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+					<Neck Location="0.75" Kind="Chance">
+						<DisplayName>Dominion Sacrament</DisplayName>
+						<Desc>The void prepares you for what comes next.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Mod_trib_modifiers_trib3</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>Dominion Tribulation</DisplayName>
+						<Desc>Heaven sends its best. It is not enough.</Desc>
+						<NeckCountdown>4200</NeckCountdown>
+						<ThunderValue>50</ThunderValue>
+						<AddModifier></AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Mod_trib_law_stage6" Level="12">
+				<DisplayName>Earthly Oblivion</DisplayName>
+				<Desc>Earthly lightning submits. The cultivator stands between mortal and divine.</Desc>
+				<Value>300</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Oblivion Assimilation</DisplayName>
+						<Desc>All earthly power is absorbed. Nothing can harm this body.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+					<Neck Location="0.75" Kind="Chance">
+						<DisplayName>Oblivion Sacrament</DisplayName>
+						<Desc>The final preparation before godhood.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Mod_trib_modifiers_trib4</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>Earthly Annihilation</DisplayName>
+						<Desc>The earth trembles. Lightning obeys.</Desc>
+						<NeckCountdown>4200</NeckCountdown>
+						<ThunderValue>100</ThunderValue>
+						<AddModifier></AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Mod_trib_law_stage7" Level="14">
+				<DisplayName>Black Lightning Transcendence</DisplayName>
+				<Desc>The final step. Become a true immortal. Heaven kneels.</Desc>
+				<Value>500</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Transcendence Assimilation</DisplayName>
+						<Desc>All of heaven's power is consumed. Immortality is inevitable.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier></AddModifier>
+					</Neck>
+					<Neck Location="0.75" Kind="Chance">
+						<DisplayName>Transcendence Sacrament</DisplayName>
+						<Desc>The void whispers: Ascend.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Mod_trib_modifiers_trib5</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>Black Ascension</DisplayName>
+						<Desc>Heaven's tribulation shatters. You ascend as the Black Lightning Immortal.</Desc>
+						<ThunderValue>200</ThunderValue>
+						<NeckCountdown>3000</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+		</Stages>
+	</Gong>
+
+</List></Gongs>
+ck>
+					<Neck Location="0.75" Kind="Chance">
+						<DisplayName>Earthly Lightning Sacrament</DisplayName>
+						<Desc>Harmonize earthly lightning Qi with the help of medicine to prepare for the heavenly tribulation.</Desc>
+						<CostTime>100</CostTime>
+						<ItemCost>
+							<Item name= "Mod_trib_item_fivecolorspill"/>
+						</ItemCost>
+						<AddModifier>Mod_trib_modifiers_trib4</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>Earthly Tribulation</DisplayName>
+						<Desc>Overcome the tribulation and absorb heavenly lightning Qi to advance.</Desc>
+						<NeckCountdown>4200</NeckCountdown>
+						<ThunderValue>140000</ThunderValue>
+						<AddModifier></AddModifier>
+					</Neck>	
+				</Necks>
+			</Stage>
+
+			<Stage Name="Mod_trib_law_stage7" Level="12">
+				<DisplayName>Heavenly Lightning</DisplayName>
+				<Desc>The seventh step. Unfetter the nascent self and become able to trample heaven's will underfoot.</Desc>
+				<Value>5200000</Value>
+				<Necks>
+					<Neck Location="0.15" Kind="Chance">
+						<DisplayName>Heavenly Lightning Assimilation</DisplayName>
+						<Desc>Assimilate the absorbed heavenly lightning Qi to free the nascent self from the body. [color=#D06508]\nLosing control of the lightning will greatly injure one's flesh and organs.[/color]</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.2</SuccessChange>
+						<FailedChangeAdd>0.2</FailedChangeAdd>
+						<Damages>
+							<li PartKind="Flesh" Name="Jin_ThunderDamage" Rate="1"/>
+							<li PartKind="Organ" Name="Jin_ThunderDamage" Rate="1"/>
+							<li PartKind="Meridian" Name="Jin_ThunderDamage" Rate="1"/>
+						</Damages>
+						<AddModifier></AddModifier>
+					</Neck>
+					<Neck Location="0.75" Kind="Chance">
+						<DisplayName>Heavenly Lightning Sacrament</DisplayName>
+				        <Desc>Harmonize heavenly lightning Qi with the help of medicine to prepare for the Ascension Tribulation.</Desc>
+						<CostTime>100</CostTime>
+						<ItemCost>
+							<Item name= "Mod_trib_item_fivecolorspill"/>
+						</ItemCost>
+						<AddModifier>Mod_trib_modifiers_trib5</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>Ascension</DisplayName>
+						<Desc>Vainquish heaven's tribulation and thread the path of a true immortal.</Desc>
+						<ThunderValue>760000</ThunderValue>
+						<NeckCountdown>3000</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+<!-- DG -->
+
+		</Stages>
+	</Gong>
+	
+</List></Gongs>

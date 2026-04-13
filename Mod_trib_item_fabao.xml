@@ -1,0 +1,39 @@
+<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Mod_trib_fabao_forbiddenseal" Parent="MiBaoBase">
+		<ThingName>Forbidden Seal</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTfu01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_MBfu01</FabaoTexPath>
+		<Desc>A primordial artifact forged by an immortal who waged war against the Heavenly Dao. The forbidden hex inscribed upon this talisman draws power directly from Heaven's Condemnation, converting divine punishment into overwhelming Spell prowess. At full power, this seal can silence the heavens themselves.</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>Light2</li>
+				<li>Soft1</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name="Item_Wood" count="1"/>
+				</CostItems>
+			</BeMade>
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid="Other" des="Have 1 Condemnation or more." needcount="1"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="Sync_AddEquptDataModifier" sParam1="Mod_trib_modifiers_fabao1" Desc="Each point of Condemnation will improve the user Spell prowess."/>
+				</SpecialAbility>
+			</Fabao>
+			<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActivePenalty()</UseLua>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+</List></ThingDefs>

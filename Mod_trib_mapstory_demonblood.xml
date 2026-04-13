@@ -1,0 +1,47 @@
+<Stories><List>
+
+	<Story Name="Mod_trib_story_demonblood" Parent="BaseFillingStory">
+		<DisplayName>Nameless Cultivator Residence</DisplayName>
+		<Desc>Following the map found inside the Nameless Demonic Journal, [NAME] found the abandonned residence of an ancient cultivator near the Village of Dunes. Maybe something of value could be found inside.</Desc>
+		<Selections>
+			<li>
+				<Display>Search</Display>
+				<Condition>
+				<![CDATA[
+				me:CheckFeature("DemonBlood") == true
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg(XT("The ancient cultivator cave had been long ransacked and nothing of value was left. While exploring however, a seemingly broken array reacted to [NAME] and revealed a hidden cache. Inside, [NAME] found a bloodstained manual and when [NAME] touched it, the bloodstain was absorbed into [ENHERS] body. [NAME] realized that [ENHERS] body was different, and that [ENHERS] demon blood had awoken. Deep within the cache, [NAME] also discovered a trove of rare pills and spirit stones left behind by the ancient cultivator."));
+				me:DropEsoteric("Mod_trib_manual_pill_earthlydevilelixirs");
+				me:AddModifier("Mod_trib_modifiers_story_demonblood");
+				me:AddItem("Mod_trib_item_bedevilmentpill",50);
+				me:AddItem("Mod_trib_item_malignancypill",50);
+				me:AddItem("Item_LingStone",999);
+				me:AddItem("Item_LingCrystal",99);
+				me:AddItem("Item_MonsterBlood",99);
+				me:AddItem("Item_SoulPearl",50);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg(XT("[NAME] searched the cave thoroughly. Although [NAME] lacked demon blood, the ancient array still recognized a kindred rebellious spirit. [NAME] found a cache of spirit stones hidden behind a crumbling wall."));
+				me:AddItem("Item_LingStone",500);
+				me:AddItem("Item_LingCrystal",50);
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>Leave</Display>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg(XT("After thinking about it, [NAME] decided not to take any risk and left."));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+</List></Stories>

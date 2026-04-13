@@ -1,0 +1,2 @@
+Name	DisplayName	Scene	Target	Emotion	OtherWorld	DownMod
+33e48a6b-78c6-4940-8b75-ce764a2c13b9	GenDayRes	DayDream	Nature	Eruption	1	0-8b75-ce764a2c13b9	GenDayRes	DayDream	Nature	Eruption	1	1	

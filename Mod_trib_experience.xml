@@ -1,0 +1,151 @@
+<Experiences><List>
+
+	<Experience Name="Mod_trib_experience_gong1" Group="G1">
+		<DisplayName>Lightning Legacy</DisplayName>
+		<Desc>You accidentally inherited the Lightning Transcendence Law before joining the Taiyi Sect, which leaves you afraid of drawing too much attention as a result. \n\n\n[size=10]Unlock Law: [color=#D06508]Lightning Transcendence Law[/color]\nThe start of this Law can be difficult. Not recommended for first-time players.[/size]</Desc>
+		<Point>5</Point>
+		<Hide>1</Hide>
+		<RaceKind>Human</RaceKind>
+		<Gongs>
+			<li>Mod_trib_gong1</li>
+		</Gongs>
+		<Items>
+			<li Name="Item_Dan_TreeEXP" Count="99"/>
+			<li Name="Item_LingStone" Count="999"/>
+			<li Name="Item_LingCrystal" Count="99"/>
+			<li Name="Item_ThunderAir" Count="99"/>
+		</Items>
+	</Experience>
+
+	<Experience Name="Mod_bl_experience_gong1" Group="G1">
+		<DisplayName>Black Lightning Legacy</DisplayName>
+		<Desc>You inherited the forbidden Black Lightning Dao from a dying immortal who defied heaven itself. The void's power now courses through your veins.\n\n\n[size=10]Unlock Law: [color=#D06508]Black Lightning Dao[/color]\nAn overwhelmingly powerful Law. Recommended for those who wish to dominate.[/size]</Desc>
+		<Point>0</Point>
+		<Hide>0</Hide>
+		<RaceKind>Human</RaceKind>
+		<Gongs>
+			<li>Mod_bl_gong1</li>
+		</Gongs>
+		<Items>
+			<li Name="Item_Dan_TreeEXP" Count="99"/>
+			<li Name="Item_LingStone" Count="9999"/>
+			<li Name="Item_LingCrystal" Count="999"/>
+			<li Name="Item_ThunderAir" Count="99"/>
+			<li Name="Item_TuEssence" Count="99"/>
+			<li Name="Item_HuoEssence" Count="99"/>
+			<li Name="Item_MuEssence" Count="99"/>
+			<li Name="Item_ShuiEssence" Count="99"/>
+			<li Name="Item_JinEssence" Count="99"/>
+		</Items>
+		<Esoterics>
+			<li>Mod_trib_manual_pill_fivecolorsrecipes</li>
+			<li>Mod_trib_manual_pill_innerqirecipes</li>
+			<li>Mod_trib_manual_pill_earthlydevilelixirs</li>
+		</Esoterics>
+	</Experience>
+
+	<Experience Name="Mod_trib_experience_elemresistpills">
+		<DisplayName>Elemental Pill Stash</DisplayName>
+		<Desc>A hidden stash of powerful elemental pills and rare essences. Enough to resist any element.</Desc>
+		<Point>0</Point>
+		<Hide>0</Hide>
+		<RaceKind>Human</RaceKind>
+		<Items>
+			<li Name="Mod_trib_item_fivecolorspill" Count="99"/>
+			<li Name="Mod_trib_item_waterrestrainingpill" Count="99"/>
+			<li Name="Mod_trib_item_firerestrainingpill" Count="99"/>
+			<li Name="Mod_trib_item_metalrestrainingpill" Count="99"/>
+			<li Name="Mod_trib_item_woodrestrainingpill" Count="99"/>
+			<li Name="Mod_trib_item_earthrestrainingpill" Count="99"/>
+			<li Name="Item_TuEssence" Count="99"/>
+			<li Name="Item_HuoEssence" Count="99"/>
+			<li Name="Item_MuEssence" Count="99"/>
+			<li Name="Item_ShuiEssence" Count="99"/>
+			<li Name="Item_JinEssence" Count="99"/>
+			<li Name="Item_LingStone" Count="999"/>
+			<li Name="Item_Mint" Count="999"/>
+			<li Name="Item_Dan_TreeEXP" Count="99"/>
+		</Items>
+		<Esoterics>
+			<li>Mod_trib_manual_pill_fivecolorsrecipes</li>
+		</Esoterics>
+	</Experience>
+
+	<Experience Name="Mod_trib_experience_innerqipills">
+		<DisplayName>Inner Qi Pill Stash</DisplayName>
+		<Desc>A vast collection of Inner Cauldron pills and rare cultivation materials.</Desc>
+		<Point>0</Point>
+		<Hide>0</Hide>
+		<RaceKind>Human</RaceKind>
+		<Items>
+			<li Name="Mod_trib_item_qicompressionpill" Count="99"/>
+			<li Name="Mod_trib_item_innercauldronpill" Count="99"/>
+			<li Name="Item_LingStone" Count="999"/>
+			<li Name="Item_TuEssence" Count="99"/>
+			<li Name="Item_EarthEssence1_1" Count="99"/>
+			<li Name="Item_XieHunLu" Count="99"/>
+			<li Name="Item_StoneEssence" Count="99"/>
+			<li Name="Item_JadeEssence" Count="99"/>
+			<li Name="Item_MagicHerb" Count="999"/>
+			<li Name="Item_Dan_TreeEXP" Count="99"/>
+		</Items>
+		<Esoterics>
+			<li>Mod_trib_manual_pill_innerqirecipes</li>
+		</Esoterics>
+	</Experience>
+
+	<Experience Name="Mod_trib_experience_condensedtribulationpill">
+		<DisplayName>Tribulation Pill Stash</DisplayName>
+		<Desc>The ultimate cultivation pills forged from tribulation lightning itself.</Desc>
+		<Point>0</Point>
+		<Hide>0</Hide>
+		<RaceKind>Human</RaceKind>
+		<Items>
+			<li Name="Mod_trib_item_condensedtribulationpill" Count="99"/>
+			<li Name="Item_LingCrystal" Count="999"/>
+			<li Name="Item_ThunderAir" Count="99"/>
+			<li Name="Item_Dan_TreeEXP" Count="99"/>
+		</Items>
+		<Esoterics>
+			<li>Mod_trib_manual_pill_heavenlybookfragment</li>
+		</Esoterics>
+	</Experience>
+
+	<Experience Name="Mod_trib_experience_demonblood">
+		<DisplayName>Demonic Arsenal</DisplayName>
+		<Desc>A dark collection of demonic pills, combat elixirs, and forbidden knowledge.</Desc>
+		<Point>0</Point>
+		<Hide>0</Hide>
+		<RaceKind>Human</RaceKind>
+		<Items>
+			<li Name="Mod_trib_item_bedevilmentpill" Count="99"/>
+			<li Name="Mod_trib_item_malignancypill" Count="99"/>
+			<li Name="Item_EarthEssence1" Count="99"/>
+			<li Name="Item_CopperGrit" Count="99"/>
+			<li Name="Item_SilverGrit" Count="99"/>
+			<li Name="Item_MonsterBlood" Count="99"/>
+			<li Name="Item_SoulPearl" Count="99"/>
+			<li Name="Item_LingStone" Count="999"/>
+			<li Name="Item_Dan_TreeEXP" Count="99"/>
+		</Items>
+		<Esoterics>
+			<li>Mod_trib_manual_story_demonblood</li>
+			<li>Mod_trib_manual_pill_earthlydevilelixirs</li>
+		</Esoterics>
+	</Experience>
+
+	<Experience Name="Mod_trib_experience_ancestralyaoguaibody" Group="G1">
+		<DisplayName>Legacy of Yaoguai Body</DisplayName>
+		<Desc>The dying Taiyi Sect elder was proficient in all kinds of ancient legacies. Thus upon seeing you waken up a intelligent beast, the elder included the contents of Ancestral Yaoguai Body among the memories that were passed on to you, which is an ancient Law of body refinement.\n\n\n[size=10]Unlock Law: [color=#D06508]Ancestral Yaoguai Body[/color]\nThis Law is extremely hard in early stages, not recommended for beginners.[/size]</Desc>
+		<Point>0</Point>
+		<Hide>1</Hide>
+		<RaceKind>YaoGuai</RaceKind>
+		<Gongs>
+			<li>Body_Gong_3</li>
+		</Gongs>
+		<Items>
+			<li Name="Item_Dan_TreeEXP" Count="99"/>
+		</Items>
+	</Experience>
+
+</List></Experiences>

@@ -1,0 +1,2 @@
+Name	DisplayName	Scene	Target	Emotion	OtherWorld	DownMod
+aab7b8f0-6c16-4199-873a-90bb8ac63387	SnoRecDes	Memory	Snow	GreatlyMiss	1	09-873a-90bb8ac63387	SnoRecDes	Memory	Snow	GreatlyMiss	1	1	

@@ -1,0 +1,11 @@
+<FabaoFormulas><List>
+
+	<Fabao Name="Mod_trib_formula_forbiddenseal">
+		<Normal>0</Normal>
+		<ItemName>Mod_trib_fabao_forbiddenseal</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.99</SuccessRate>
+		<Count>99</Count>
+	</Fabao>
+
+</List></FabaoFormulas>

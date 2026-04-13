@@ -1,0 +1,22 @@
+<FightSkills><List>
+
+	<Skill Name="Mod_trib_fight_lightningarmor">
+		<DisplayName>Lightning Armor</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.01</SingTime>
+		<CD>0.1</CD>
+		<LingCost>1</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>0.99</Value>
+		<Value2>999</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>60</HitEffect>
+	</Skill>
+
+</List></FightSkills>
+ls>

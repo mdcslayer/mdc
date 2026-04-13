@@ -1,0 +1,178 @@
+<ModifierDefs><List>
+
+	<Modifier Name="Mod_trib_modifiers_fivecolorspill" Type="Normal">
+		<DisplayName>Five Colors Pill</DisplayName>
+		<Desc>Boost resistance to all elements to GODLY levels. Extends lifespan.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="50"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="50"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="50"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="50"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="50"/>
+			<li Name="MaxAge" AddV="500"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_waterrestrainingpill" Type="Normal">
+		<DisplayName>Water Restraining Pill</DisplayName>
+		<Desc>ABSOLUTE resistance to the Water element.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="100"/>
+			<li Name="MaxAge" AddV="200"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_firerestrainingpill" Type="Normal">
+		<DisplayName>Fire Restraining Pill</DisplayName>
+		<Desc>ABSOLUTE resistance to the Fire element.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="100"/>
+			<li Name="MaxAge" AddV="200"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_metalrestrainingpill" Type="Normal">
+		<DisplayName>Metal Restraining Pill</DisplayName>
+		<Desc>ABSOLUTE resistance to the Metal element.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="100"/>
+			<li Name="MaxAge" AddV="200"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_woodrestrainingpill" Type="Normal">
+		<DisplayName>Wood Restraining Pill</DisplayName>
+		<Desc>ABSOLUTE resistance to the Wood element.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="100"/>
+			<li Name="MaxAge" AddV="200"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_earthrestrainingpill" Type="Normal">
+		<DisplayName>Earth Restraining Pill</DisplayName>
+		<Desc>ABSOLUTE resistance to the Earth element.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="100"/>
+			<li Name="MaxAge" AddV="200"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_qicompressionpill" Type="Normal">
+		<DisplayName>Qi Compression Pill - INFINITE POWER</DisplayName>
+		<Desc>Boost the speed of Qi refinement to GODLY levels.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddP="5000"/>
+			<li Name="LingAbsorbSpeed" AddP="5000"/>
+			<li Name="MaxAge" AddV="500"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_bedevilmentpill" Type="Normal">
+		<DisplayName>Bedevilment Pill - BROKEN</DisplayName>
+		<Desc>GODLY battle prowess with NO downsides.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="500"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="500"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="500"/>
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="100"/>
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="100"/>
+			<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="50"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="50"/>
+			<li Name="MaxAge" AddV="500"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_malignancypill" Type="Normal">
+		<DisplayName>Malignancy Pill - BROKEN</DisplayName>
+		<Desc>GODLY spell prowess with NO downsides.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="500"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.99"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.99"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.99"/>
+			<li Name="MaxAge" AddV="500"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_innercauldronpill" Type="Normal">
+		<DisplayName>Inner Cauldron Pill - INFINITE QI</DisplayName>
+		<Desc>Add 10,000,000 Qi to the inner cauldron with MAX potential boost.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="9999"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="10000000"/>
+			<li Name="MaxAge" AddV="1000"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_condensedtribulationpill" Type="Normal">
+		<DisplayName>Heavenly Qi Resonance - GODLY</DisplayName>
+		<Desc>ULTIMATE cultivation boost - infinite duration.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" BAddV="1000"/>
+			<li Name="LingAbsorbSpeed" AddP="99999"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="1000"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="1000"/>
+			<li Name="MaxAge" AddV="5000"/>
+		</Properties>
+	</Modifier>
+
+</List></ModifierDefs>ndensed Void Lightning - GODLY</DisplayName>
+		<Desc>ULTIMATE cultivation and combat boost. Infinite duration.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" BAddV="100"/>
+			<li Name="LingAbsorbSpeed" AddP="9999"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="100"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="100"/>
+			<li Name="MaxAge" AddV="1000"/>
+		</Properties>
+	</Modifier>
+
+</List></ModifierDefs>

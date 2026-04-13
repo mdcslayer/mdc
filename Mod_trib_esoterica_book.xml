@@ -1,0 +1,102 @@
+<Esotericas><List>
+
+	<Esoterica Name="Mod_trib_manual_pill_fivecolorsrecipes">
+		<DisplayName>Five Colors Recipes</DisplayName>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>A forbidden manual of the Black Lightning Dao. Contains ultimate elemental pill recipes that grant absolute elemental mastery.</Desc>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>Acquire the following elixir recipes: \nFive Colors Pill\nWater Restraining Pill\nFire Restraining Pill\nMetal Restraining Pill\nWood Restraining Pill\nEarth Restraining Pill</EffectDesc>
+		<Dans>
+			<li>Mod_trib_formula_fivecolorspill</li>
+			<li>Mod_trib_formula_waterrestrainingpill</li>
+			<li>Mod_trib_formula_firerestrainingpill</li>
+			<li>Mod_trib_formula_metalrestrainingpill</li>
+			<li>Mod_trib_formula_woodrestrainingpill</li>
+			<li>Mod_trib_formula_earthrestrainingpill</li>
+		</Dans>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_manual_pill_innerqirecipes">
+		<DisplayName>Inner Qi Recipes</DisplayName>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Ancient recipes of the void. These pills amplify inner Qi beyond mortal comprehension.</Desc>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>Acquire the following elixir recipes: \nQi Compression Pill\nInner Cauldron Pill</EffectDesc>
+		<Dans>
+			<li>Mod_trib_formula_qicompressionpill</li>
+			<li>Mod_trib_formula_innercauldronpill</li>
+		</Dans>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_manual_pill_earthlydevilelixirs">
+		<DisplayName>Earthly Devil Elixirs</DisplayName>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Forbidden battle elixirs born from black lightning alchemy. Grants devastating combat power.</Desc>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>Acquire the following elixir recipes: \nBedevilment Pill\nMalignancy Pill</EffectDesc>
+		<Dans>
+			<li>Mod_trib_formula_bedevilmentpill</li>
+			<li>Mod_trib_formula_malignancypill</li>
+		</Dans>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_manual_pill_heavenlybookfragment">
+		<DisplayName>Heavenly Book Fragment</DisplayName>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>A complete fragment stolen from heaven itself. Contains the ultimate method for condensing tribulation lightning into pill form.</Desc>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>Acquire the following elixir recipe: \nCondensed Tribulation Pill</EffectDesc>
+		<Dans>
+			<li>Mod_trib_formula_condensedtribulationpill</li>
+		</Dans>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_manual_story_demonblood">
+		<DisplayName>Nameless Demonic Journal</DisplayName>
+		<Desc>Journal of an ancient nameless demonic cultivator, it contains the trials and tribulations they overcame during their life. Hidden amongst the pages is a map to their residence.</Desc>
+		<Hide>1</Hide>
+		<Element>None</Element>
+		<Type>None</Type>
+		<Difficulty>0</Difficulty>
+		<EffectDesc>Acquire information on the following locale: \nVillage of Dunes</EffectDesc>
+		<Places>
+			<li>Place_Desert4</li>
+		</Places>
+		<Secrets>
+			<li>29103</li>
+		</Secrets>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</Esoterica>
+
+</List></Esotericas>
+s>
+oterica>
+
+</List></Esotericas>

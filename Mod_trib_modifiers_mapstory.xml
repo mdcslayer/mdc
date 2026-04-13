@@ -1,0 +1,24 @@
+<ModifierDefs><List>
+
+	<Modifier Name="Mod_trib_modifiers_story_demonblood" Type="Normal">
+		<DisplayName>Demon's Bloodline</DisplayName>
+		<Desc>Demon's Bloodline awakening: Potential maximized; Cultivation Speed increased by 99999%; Break through the limit of Qi by 99. All stats massively boosted.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="9999"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="999"/>
+			<li Name="NpcFight_HP" AddV="1000000"/>
+			<li Name="NpcFight_Attack" AddV="1000000"/>
+			<li Name="NpcFight_Defense" AddV="1000000"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="1000"/>
+			<li Name="LingAbsorbSpeed" AddP="5000"/>
+			<li Name="MaxAge" AddV="10000"/>
+		</Properties>
+		<Skills>
+			<li Name="Qi" LevelOver="99"/>
+		</Skills>
+	</Modifier>
+
+</List></ModifierDefs>

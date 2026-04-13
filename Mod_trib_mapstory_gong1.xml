@@ -1,0 +1,60 @@
+<Stories><List>
+
+	<Story Name="Mod_trib_story_gong1" Parent="BaseFillingStory">
+		<DisplayName>Booming Thunderclap Origin</DisplayName>
+		<Desc>[NAME] came to [PLACE] and discovered the place where the lightning struck. An ancient cultivator of unfathomable power attempted to ascend beyond the Heavenly Dao itself, but was struck down by a tribulation of unprecedented fury. The corpse still crackles with divine lightning, and the air hums with residual power. There may be treasures beyond imagination to salvage — if one dares approach.</Desc>
+		<Selections>
+			<li>
+				<Display>Forcefully approach the corpse</Display>
+				<Condition>
+				<![CDATA[
+				me:GetGLevel() >= 1
+				]]>
+				</Condition>
+				<Tip>Primordial Spirit and Luck</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg(XT("[NAME] channeled the Primordial Spirit and used [ENHIM] overbearing cultivation to withstand the lightning aura. The corpse's remaining power recognized [NAME] as worthy and surged into [ENHERS] body, unlocking the secrets of the Lightning Transcendence Law."));
+				me:DropAwardItem("Item_ThunderAir", 99);
+				me:DropAwardItem("Mod_trib_item_condensedtribulationpill", 50);
+				me:DropAwardItem("Item_LingCrystal", 99);
+				me:UnLockGong("Mod_trib_gong1");
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[
+				me:AddMsg(XT("[NAME] struggled against the lightning aura but managed to grab a few items before retreating."));
+				me:DropAwardItem("Item_ThunderAir", 10);
+				me:DropAwardItem("Item_LingStone", 500);
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>Harmonize with the lightning aura</Display>
+				<Tip>Constitution and Luck</Tip>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg(XT("[NAME] reached out with [ENHERS] spirit and harmonized perfectly with the lightning aura. The ancient cultivator's entire legacy flowed into [NAME] — the Lightning Transcendence Law, forbidden pills, and a reservoir of condensed tribulation energy. The corpse crumbled to dust, its purpose fulfilled."));
+				me:DropAwardItem("Mod_trib_item_condensedtribulationpill", 99);
+				me:DropAwardItem("Item_ThunderAir", 99);
+				me:DropAwardItem("Item_LingCrystal", 199);
+				me:DropAwardItem("Item_LingStone", 999);
+				me:UnLockGong("Mod_trib_gong1");
+				me:AddModifier("Mod_trib_modifiers_fivecolorspill");
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Leave</Display>
+				<OKResult>
+				<![CDATA[
+				me:AddMsg(XT("After thinking about it, [NAME] decided not to take any risk and left."));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+</List></Stories>

@@ -1,0 +1,2 @@
+Name	DisplayName	Scene	Target	Emotion	OtherWorld	DownMod
+e0a7956f-554d-45db-8da8-dac554681ff2	MooThuTerr	HearFarThunder	Moon	GreatlyFear	1	0c554681ff2	MooThuTerr	HearFarThunder	Moon	GreatlyFear	1	1	

@@ -1,0 +1,91 @@
+<DanFormulas><List>
+
+	<Dan Name="Mod_trib_formula_fivecolorspill">
+		<Normal>0</Normal>
+		<ItemName>Mod_trib_item_fivecolorspill</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.99</SuccessRate>
+		<Count>99</Count>
+	</Dan>
+
+	<Dan Name="Mod_trib_formula_waterrestrainingpill">
+		<Normal>0</Normal>
+		<ItemName>Mod_trib_item_waterrestrainingpill</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.99</SuccessRate>
+		<Count>99</Count>
+	</Dan>
+
+	<Dan Name="Mod_trib_formula_firerestrainingpill">
+		<Normal>0</Normal>
+		<ItemName>Mod_trib_item_firerestrainingpill</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.99</SuccessRate>
+		<Count>99</Count>
+	</Dan>
+
+	<Dan Name="Mod_trib_formula_metalrestrainingpill">
+		<Normal>0</Normal>
+		<ItemName>Mod_trib_item_metalrestrainingpill</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.99</SuccessRate>
+		<Count>99</Count>
+	</Dan>
+
+	<Dan Name="Mod_trib_formula_woodrestrainingpill">
+		<Normal>0</Normal>
+		<ItemName>Mod_trib_item_woodrestrainingpill</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.99</SuccessRate>
+		<Count>99</Count>
+	</Dan>
+
+	<Dan Name="Mod_trib_formula_earthrestrainingpill">
+		<Normal>0</Normal>
+		<ItemName>Mod_trib_item_earthrestrainingpill</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.99</SuccessRate>
+		<Count>99</Count>
+	</Dan>
+
+	<Dan Name="Mod_trib_formula_qicompressionpill">
+		<Normal>0</Normal>
+		<ItemName>Mod_trib_item_qicompressionpill</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.99</SuccessRate>
+		<Count>99</Count>
+	</Dan>
+
+	<Dan Name="Mod_trib_formula_bedevilmentpill">
+		<Normal>0</Normal>
+		<ItemName>Mod_trib_item_bedevilmentpill</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.99</SuccessRate>
+		<Count>99</Count>
+	</Dan>
+
+	<Dan Name="Mod_trib_formula_malignancypill">
+		<Normal>0</Normal>
+		<ItemName>Mod_trib_item_malignancypill</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.99</SuccessRate>
+		<Count>99</Count>
+	</Dan>
+
+	<Dan Name="Mod_trib_formula_innercauldronpill">
+		<Normal>0</Normal>
+		<ItemName>Mod_trib_item_innercauldronpill</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.99</SuccessRate>
+		<Count>99</Count>
+	</Dan>
+
+	<Dan Name="Mod_trib_formula_condensedtribulationpill">
+		<Normal>0</Normal>
+		<ItemName>Mod_trib_item_condensedtribulationpill</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.99</SuccessRate>
+		<Count>99</Count>
+	</Dan>
+
+</List></DanFormulas>

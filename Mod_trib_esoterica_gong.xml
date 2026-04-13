@@ -1,0 +1,273 @@
+<Esotericas><List>
+
+<!-- ============================================ -->
+<!-- QI SENSING -->
+<!-- ============================================ -->
+
+	<Esoterica Name="Mod_trib_gong1_blackcurrent">
+		<DisplayName>Black Current</DisplayName>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Ignite a black current of void Qi. Massively increases Stamina Conversion Rate and Energy.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Stamina Conversion Rate and Energy.\nVirtually eliminates Fatigue.\nBoosts Max Qi.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_blackcurrent</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_voidstrike">
+		<DisplayName>Void Strike</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Channel the void into a devastating strike. Massively increases Max Qi and Qi Absorption.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Max Qi.\nGreatly increases Qi Absorption Speed.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_voidstrike</Modifier>
+	</Esoterica>
+
+<!-- ============================================ -->
+<!-- CORE SHAPING -->
+<!-- ============================================ -->
+
+	<Esoterica Name="Mod_trib_gong1_blackpulse">
+		<DisplayName>Black Pulse</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Train your void Qi to pulse with dark energy. Fortifies the body and massively improves Qi recovery.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Boosts all Five Elements.\nMassively increases Qi Absorption Speed.\nGreatly increases HP.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_blackpulse</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_abyssalcauldron">
+		<DisplayName>Abyssal Cauldron</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Expand the Inner Cauldron with void energy. The abyss holds infinite Qi.</Desc>
+		<Hide>2</Hide>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Inner Cauldron becomes virtually infinite.\nMassively increases Max Qi.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_abyssalcauldron</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_voidconduction">
+		<DisplayName>Void Conduction</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Channel void energy to ignite your potential. Heaven's condemnation means nothing.</Desc>
+		<Hide>2</Hide>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Boosts all Five Elements.\nMaximizes Potential.\nMassively increases Cultivation Speed.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_voidconduction</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_blackmantra">
+		<DisplayName>Black Mantra</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Meditate on the void, sharpening focus beyond mortal limits. Massively improves Cultivation speed.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Cultivation Speed.\nBoosts Spell Power.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_blackmantra</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_voidpill">
+		<DisplayName>Void Compression Pill</DisplayName>
+		<Icon>res/Sprs/ui/icon_liandan</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>A pill forged from condensed void Qi. Fills the Inner Cauldron effortlessly.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Dan</Type>
+		<EffectDesc>[size=10][color=#D06508]Acquire the following elixir recipe: \nQi Compression Pill[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Mod_trib_formula_qicompressionpill</li>
+		</Dans>
+	</Esoterica>
+
+<!-- ============================================ -->
+<!-- GOLDEN CORE -->
+<!-- ============================================ -->
+
+	<Esoterica Name="Mod_trib_gong1_voidshield">
+		<DisplayName>Void Shield</DisplayName>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<GLevel>Dan2</GLevel>
+		<Desc>Shield the body with void Qi. Nothing can penetrate the darkness.</Desc>
+		<Element>Jin</Element>
+		<Type>Barrier</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Qi Shield effectiveness.\nMassively increases Defense.\nMassively increases Recovery.\nPain becomes meaningless.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_voidshield</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_abyssaltempest">
+		<DisplayName>Abyssal Tempest</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Create a perpetual storm of void Qi in your core. The abyss expands your power infinitely.</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Max Qi.\nMassively increases Attack.\nMassively increases Spell Power.\nMassively increases HP.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_abyssaltempest</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_voidstep">
+		<DisplayName>Void Step</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Move through the void itself. Teleport across distances in the blink of an eye.</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Movement and Flying Speed.\nGreatly increases Dodge Rate.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_voidstep</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_obliterationpill">
+		<DisplayName>Obliteration Pills</DisplayName>
+		<Icon>res/Sprs/ui/icon_liandan</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Pills forged from pure destruction. Resist all elements effortlessly.</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Dan</Type>
+		<EffectDesc>[size=10][color=#D06508]Acquire the following elixir recipes: \nWater Restraining Pill\nFire Restraining Pill\nMetal Restraining Pill\nWood Restraining Pill\nEarth Restraining Pill[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Mod_trib_formula_waterrestrainingpill</li>
+			<li>Mod_trib_formula_firerestrainingpill</li>
+			<li>Mod_trib_formula_metalrestrainingpill</li>
+			<li>Mod_trib_formula_woodrestrainingpill</li>
+			<li>Mod_trib_formula_earthrestrainingpill</li>
+		</Dans>
+	</Esoterica>
+
+<!-- ============================================ -->
+<!-- PRIMORDIAL SPIRIT -->
+<!-- ============================================ -->
+
+	<Esoterica Name="Mod_trib_gong1_heavenbreaker">
+		<DisplayName>Heaven Breaker</DisplayName>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Harness tribulation lightning and bend it to your will. Your Qi and defenses become absolute.</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Barrier</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Max Qi and Shield.\nMassively increases Defense and HP.\nGreatly extends Lifespan.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_heavenbreaker</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_voidincantation">
+		<DisplayName>Void Incantation</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Master the void's swiftness. Your spells become instant and cost nothing.</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]Boosts all Five Elements.\nSpell Cooldown reduced to near zero.\nSpell Cost reduced to zero.\nMassively increases Spell Power.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_voidincantation</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_blackfulmination">
+		<DisplayName>Black Fulmination</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Master the destructive aspect of void lightning. Your attacks erase everything from existence.</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]Massively increases Spell Power and Attack.\nGuaranteed Critical Hits.\nMassively increases Critical Damage.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_blackfulmination</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_legacyartifact">
+		<DisplayName>Legacy Artifact: Thunder Talisman</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Recorded Legacy Artifact: Thunder Talisman crafting recipe.</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]Acquire the crafting method of Legacy Artifact: \nThunder Talisman[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>MiBaoFormula_WuqiLeiFu</li>
+		</Fabaos>
+	</Esoterica>
+
+<!-- ============================================ -->
+<!-- TRIBULATION -->
+<!-- ============================================ -->
+
+	<Esoterica Name="Mod_trib_gong1_stormsovereign">
+		<DisplayName>Storm Sovereign</DisplayName>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Become one with the storm itself. Your body, Qi, and spirit transcend all limits. Gods tremble before you.</Desc>
+		<GLevel>DG</GLevel>
+		<Element>Jin</Element>
+		<Type>Barrier</Type>
+		<EffectDesc>[size=10][color=#D06508]Boosts all Five Elements massively.\nHP, Defense, Attack become godlike.\nMax Qi becomes infinite.\nGreatly extends Lifespan.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_stormsovereign</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Mod_trib_gong1_voidannihilation">
+		<DisplayName>Void Annihilation</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Unleash the full destructive force of the void. Everything touched by your power ceases to exist.</Desc>
+		<GLevel>DG</GLevel>
+		<Element>Jin</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]Spell Power reaches infinity.\nGuaranteed Critical Hits with massive damage.\nDodge becomes absolute.\nPain is meaningless.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_voidannihilation</Modifier>
+	</Esoterica>
+
+<!-- ============================================ -->
+<!-- IMMORTAL ASCENSION -->
+<!-- ============================================ -->
+
+	<Esoterica Name="Mod_trib_gong1_blacklightninggod">
+		<DisplayName>Black Lightning God</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Ascend beyond heaven and earth. You are the Black Lightning God — omnipotent, omniscient, eternal. All creation bows before your void lightning.</Desc>
+		<GLevel>Immortal</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]ALL stats become INFINITE.\nAll Five Elements maximized.\nZero Spell cost and cooldown.\nImmortal Lifespan.\nAbsolute Dodge and Critical.\nNo Fatigue. No limits. No equal.[/color][/size]</EffectDesc>
+		<Modifier>Mod_trib_modifiers_gong1_blacklightninggod</Modifier>
+	</Esoterica>
+
+</List></Esotericas>

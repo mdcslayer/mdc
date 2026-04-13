@@ -1,0 +1,23 @@
+<Magics><List>
+
+	<Magic Name="Mod_trib_magic_voidmeditation" Type="Class">
+		<DisplayName>Void Meditation</DisplayName>
+		<Desc>A forbidden meditation technique of the Black Lightning Dao. Channel the void to instantly fill the Inner Cauldron with dark Qi. Heaven cannot condemn what it cannot see.</Desc>
+		<Icon>res\Sprs\ui\icon_ruding01</Icon>
+		<SelectMode>None</SelectMode>
+		<Param1>100</Param1>
+		<Param2>36000</Param2>
+		<Param3>0.01</Param3>
+		<Ani>dazuo</Ani>
+		<ClassName>Mod_trib_magic_class_2</ClassName>
+	</Magic>
+
+</List></Magics>
+ic_class_2</ClassName>
+    </Magic>
+
+</List></Magics>
+sName>
+    </Magic>
+
+</List></Magics>

@@ -1,0 +1,23 @@
+<Esotericas><List>
+
+	<Esoterica Name="Mod_trib_manual_magic_voidmeditation">
+		<DisplayName>Void Meditation</DisplayName>
+		<Icon>res/Sprs/ui/icon_ruding01</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]Learn Miracle: Void Meditation\nA forbidden meditation technique of the Black Lightning Dao. Channel the void to instantly fill the Inner Cauldron with dark Qi. Heaven cannot condemn what it cannot see.[/color][/size]</EffectDesc>
+		<Magics>
+			<li>Mod_trib_magic_voidmeditation</li>
+		</Magics>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</Esoterica>
+
+</List></Esotericas>
+   </Esoterica>
+
+</List></Esotericas>

@@ -1,0 +1,595 @@
+<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Mod_trib_item_fivecolorspill" Parent="DanBase">
+		<TexPath>Spr\Object\Mod_trib_fivecolorspill.png</TexPath>
+		<ThingName>Five Colors Pill</ThingName>
+		<Desc>ULTIMATE pill that grants godly resistance to all elements.</Desc>
+		<Rate>9</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="1" FriendPoint="0"/>
+					<SalePrice Value="1"/>
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1"/>
+					<SalePrice Value="1"/>
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1"/>
+					<SalePrice Value="0"/>
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Mod_trib_modifiers_fivecolorspill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name="Item_Wood" count="1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+		</Element>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Mod_trib_item_waterrestrainingpill" Parent="DanBase">
+		<TexPath>Spr\Object\Mod_trib_WaterResistPill.png</TexPath>
+		<ThingName>Water Restraining Pill</ThingName>
+		<Desc>GODLY resistance to Water element.</Desc>
+		<Rate>8</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Mod_trib_modifiers_waterrestrainingpill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name="Item_Wood" count="1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>12</Value>
+		</Element>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Mod_trib_item_firerestrainingpill" Parent="DanBase">
+		<TexPath>Spr\Object\Mod_trib_FireResistPill.png</TexPath>
+		<ThingName>Fire Restraining Pill</ThingName>
+		<Desc>GODLY resistance to Fire element.</Desc>
+		<Rate>8</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Mod_trib_modifiers_firerestrainingpill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name="Item_Wood" count="1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>12</Value>
+		</Element>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Mod_trib_item_metalrestrainingpill" Parent="DanBase">
+		<TexPath>Spr\Object\Mod_trib_MetalResistPill.png</TexPath>
+		<ThingName>Metal Restraining Pill</ThingName>
+		<Desc>GODLY resistance to Metal element.</Desc>
+		<Rate>8</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Huo</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Mod_trib_modifiers_metalrestrainingpill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name="Item_Wood" count="1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>12</Value>
+		</Element>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Mod_trib_item_woodrestrainingpill" Parent="DanBase">
+		<TexPath>Spr\Object\Mod_trib_WoodResistPill.png</TexPath>
+		<ThingName>Wood Restraining Pill</ThingName>
+		<Desc>GODLY resistance to Wood element.</Desc>
+		<Rate>8</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Mod_trib_modifiers_woodrestrainingpill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name="Item_Wood" count="1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>12</Value>
+		</Element>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Mod_trib_item_earthrestrainingpill" Parent="DanBase">
+		<TexPath>Spr\Object\Mod_trib_EarthResistPill.png</TexPath>
+		<ThingName>Earth Restraining Pill</ThingName>
+		<Desc>GODLY resistance to Earth element.</Desc>
+		<Rate>8</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Mod_trib_modifiers_earthrestrainingpill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name="Item_Wood" count="1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>12</Value>
+		</Element>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Mod_trib_item_bedevilmentpill" Parent="DanBase">
+		<TexPath>Spr\Object\Mod_trib_bedevilmentpill.png</TexPath>
+		<ThingName>Bedevilment Pill</ThingName>
+		<Desc>ULTIMATE battle pill - GODLY power boost with no downsides.</Desc>
+		<Rate>8</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Huo</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="1" FriendPoint="0"/>
+					<SalePrice Value="1"/>
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1"/>
+					<SalePrice Value="1"/>
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1"/>
+					<SalePrice Value="0"/>
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<Poisonousness>0</Poisonousness>
+				<FunAddion>0</FunAddion>
+			</Food>
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Mod_trib_modifiers_bedevilmentpill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name="Item_Wood" count="1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>3</Value>
+		</Element>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Mod_trib_item_malignancypill" Parent="DanBase">
+		<TexPath>Spr\Object\Mod_trib_malignancypill.png</TexPath>
+		<ThingName>Malignancy Pill</ThingName>
+		<Desc>ULTIMATE spell pill - GODLY spell power with no downsides.</Desc>
+		<Rate>8</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="1" FriendPoint="0"/>
+					<SalePrice Value="1"/>
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1"/>
+					<SalePrice Value="1"/>
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1"/>
+					<SalePrice Value="0"/>
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<Poisonousness>0</Poisonousness>
+				<FunAddion>0</FunAddion>
+			</Food>
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Mod_trib_modifiers_malignancypill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name="Item_Wood" count="1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>3</Value>
+		</Element>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Mod_trib_item_qicompressionpill" Parent="DanBase">
+		<TexPath>Spr\Object\Mod_trib_qicompressionpill.png</TexPath>
+		<ThingName>Qi Compression Pill</ThingName>
+		<Desc>ULTIMATE cultivation pill - Infinite Qi refinement boost.</Desc>
+		<Rate>7</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>2</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="1"/>
+					<SalePrice Value="1"/>
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1"/>
+					<SalePrice Value="1"/>
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1"/>
+					<SalePrice Value="0"/>
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Mod_trib_modifiers_qicompressionpill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name="Item_Wood" count="1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>3</Value>
+		</Element>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Mod_trib_item_innercauldronpill" Parent="DanBase">
+		<ThingName>Inner Cauldron Pill</ThingName>
+		<TexPath>Spr\Object\Mod_trib_InnerCauldronPill.png</TexPath>
+		<Desc>INFINITE Qi expansion pill with zero penalties.</Desc>
+		<Rate>10</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="1" FriendPoint="0"/>
+					<SalePrice Value="1"/>
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1"/>
+					<SalePrice Value="1"/>
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1"/>
+					<SalePrice Value="0"/>
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Ling>10000000</Ling>
+				<Modifier>Mod_trib_modifiers_innercauldronpill</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name="Item_Wood" count="1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<AddionLing>900</AddionLing>
+		</Ling>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>8</Value>
+		</Element>
+		<Light>
+			<Value>10</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>2</Radius>
+			<Color>220022FF</Color>
+		</Light>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Mod_trib_item_condensedtribulationpill" Parent="DanBase">
+		<ThingName>Condensed Tribulation Pill</ThingName>
+		<TexPath>Spr\Object\Mod_trib_CondensedTribulationPill.png</TexPath>
+		<Desc>GODLY tribulation pill - Ultimate cultivation boost with infinite effects.</Desc>
+		<Rate>12</Rate>
+		<Beauty>150</Beauty>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="1" FriendPoint="0"/>
+					<SalePrice Value="1"/>
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1"/>
+					<SalePrice Value="1"/>
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1"/>
+					<SalePrice Value="0"/>
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Heavy1</li>
+				<li>Hard2</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>99999999</Ling>
+				<Modifier>Mod_trib_modifiers_condensedtribulationpill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name="Item_Wood" count="1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<AddionLing>9999</AddionLing>
+			<AddionRadius>2</AddionRadius>
+			<AddionFailing>0.9</AddionFailing>
+			<AddionFailRadius>1</AddionFailRadius>
+			<Attenuation>0.1</Attenuation>
+			<Absorption>0</Absorption>
+			<Accommodate>0</Accommodate>
+		</Ling>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>12</Value>
+			<Radius>7</Radius>
+			<Failing>0.9</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+		<Light>
+			<Value>70</Value>
+			<Failing>0.6</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>4</Radius>
+			<Color>358BA7FF</Color>
+		</Light>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+</List></ThingDefs>
+ue>70</Value>
+	    	<Failing>0.6</Failing>
+	    	<FailRadius>1</FailRadius>
+	    	<Radius>4</Radius>
+	    	<Color>358BA7FF</Color>
+	    </Light>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>1</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+</List></ThingDefs>
+	    
+l</ThingName>	
+	    <TexPath>Spr\Object\Mod_trib_CondensedTribulationPill.png</TexPath>
+	    <Desc>A small bead of condensed tribulation lightning. Consuming it restores Qi and greatly enhances cultivation speed, if one can survive it.</Desc>
+	    <Rate>12</Rate>
+	    <Beauty>150</Beauty>
+	    <ElementKind>Jin</ElementKind>
+	    <Item Lable="Dan">
+	    	<Prices>
+	    		<TalkType>1</TalkType>
+	    		<BaseCount>1</BaseCount>
+	    		<li PriceTag="School">
+	    			<BuyPrice Value="7500" FriendPoint="5"/>
+	    			<SalePrice Value="3500" />
+	    		</li>
+	    		<li PriceTag="Trade">
+	    			<BuyPrice Value="15000" />
+	    			<SalePrice Value="3500" />
+	    		</li>
+	    		<li PriceTag="Auction">
+	    			<BuyPrice Value="3500" />
+	    			<SalePrice Value="0" />
+	    		</li>
+			</Prices>
+		    <PhysicalLables>
+		    	<li>Heavy1</li>
+		    	<li>Hard2</li>
+		    	<li>GreatThing_Ling</li>
+		    </PhysicalLables>
+		    <Elixir>
+		    	<Ling>400000</Ling>
+		    	<Modifier>Mod_trib_modifiers_condensedtribulationpill</Modifier>
+		    </Elixir>
+		    <BeMade>
+		    	<WorkToMake>6000</WorkToMake>
+		    	<CostItems>
+		    		<Item name = "Item_LingCrystal" count = "50"/>
+		    		<Item name = "Item_ThunderAir" count = "1"/>
+		    	</CostItems>
+		    </BeMade> 
+		</Item>
+	    <Ling>
+	    	<AddionLing>120</AddionLing>
+	    	<AddionRadius>2</AddionRadius>
+	    	<AddionFailing>0.9</AddionFailing>
+	    	<AddionFailRadius>1</AddionFailRadius>
+	    	
+	    	<Attenuation>0.1</Attenuation>
+	    	<Absorption>0</Absorption>
+	    	<Accommodate>0</Accommodate>
+	    </Ling>
+	    <Element>
+	    	<Kind>Jin</Kind>
+	    	<Value>12</Value>
+	    	<Radius>7</Radius>
+	    	<Failing>0.9</Failing>
+	    	<FailRadius>1</FailRadius>
+	    </Element>
+	    <Light>
+	    	<Value>70</Value>
+	    	<Failing>0.6</Failing>
+	    	<FailRadius>1</FailRadius>
+	    	<Radius>4</Radius>
+	    	<Color>358BA7FF</Color>
+	    </Light>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>0.05</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+</List></ThingDefs>

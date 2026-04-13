@@ -1,0 +1,145 @@
+<ModifierDefs><List>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_innercurrent" Type="Normal">
+		<DisplayName>Inner Current - GODLY</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NutritionToJingYuanK" AddP="50"/>
+			<li Name="FatigueConsumeConstant" BAddP="-0.99"/>
+			<li Name="FatigueRecoveryConstant" AddP="50"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_lightningdip" Type="Normal">
+		<DisplayName>Lightning Dip - INFINITE QI</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddP="50"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_innerpulse" Type="Normal">
+		<DisplayName>Inner Pulse - GODLY</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,50,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="5000"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_cloudycauldron" Type="Normal">
+		<DisplayName>Cloudy Cauldron - INFINITE</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAccumulativeLingAddV" AddV="10000000"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_innerconduction" Type="Normal">
+		<DisplayName>Inner Conduction - MAX POTENTIAL</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,50</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="9999"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_lightningmantra" Type="Normal">
+		<DisplayName>Lightning Mantra - INFINITE SPEED</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="100"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_lightningshield" Type="Normal">
+		<DisplayName>Lightning Shield - GODLY</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="50"/>
+			<li Name="RecoveryPower" AddP="50"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="100"/>
+			<li Name="PainTolerance" AddP="100"/>
+			<li Name="NpcFight_Defense" AddV="50000"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_ragingstorm" Type="Normal">
+		<DisplayName>Lightning Tempest - BROKEN</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddP="50"/>
+			<li Name="NpcFight_Attack" AddV="50000"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="500"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_lightningstep" Type="Normal">
+		<DisplayName>Lightning Step - TELEPORT</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MoveSpeed" AddP="1000"/>
+			<li Name="WorldMapFlySpeedAddP" AddV="500"/>
+			<li Name="NpcFight_DodgeRateAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_heaventrampling" Type="Normal">
+		<DisplayName>Grasping Tribulation - ULTIMATE</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="1000"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="50"/>
+			<li Name="NpcFight_Defense" AddV="100000"/>
+			<li Name="NpcFight_HP" AddV="1000000"/>
+			<li Name="MaxAge" AddV="5000"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_fulgurantincantation" Type="Normal">
+		<DisplayName>Fulgurant Incantation - FREE SPELLS</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,50,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.99"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-1.0"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="1000"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Mod_trib_modifiers_gong1_lightningfulmination" Type="Normal">
+		<DisplayName>Lightning Fulmination - ONE SHOT</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="5000"/>
+			<li Name="NpcFight_Attack" AddV="500000"/>
+			<li Name="NpcFight_CritRateAddP" AddP="10"/>
+			<li Name="NpcFight_CritDamageAddP" AddP="100"/>
+		</Properties>
+	</Modifier>
+
+</List></ModifierDefs>

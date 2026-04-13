@@ -1,0 +1,683 @@
+<SkillTree><List>
+
+	<Node Name="Mod_trib_gong1_tree_voidgaze" Gong="Mod_trib_gong1">
+		<Esoterica>Magic_PrayForSun_1</Esoterica>
+		<DisplayName>Void Gaze</DisplayName>
+		<Level>Qi</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_blackcurrent" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_blackcurrent</Esoterica>
+		<DisplayName>Black Current</DisplayName>
+		<Level>Qi</Level>
+		<Index>3</Index>
+		<Layers>
+			<li>Mod_trib_gong1_tree_blackcurrent_lvlup1</li>
+			<li>Mod_trib_gong1_tree_blackcurrent_lvlup2</li>
+			<li>Mod_trib_gong1_tree_blackcurrent_lvlup3</li>
+		</Layers>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_blackcurrent_lvlup1" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_blackcurrent_lvlup1</Esoterica>
+		<DisplayName>Black Current II</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_blackcurrent_lvlup2" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_blackcurrent_lvlup2</Esoterica>
+		<DisplayName>Black Current III</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_blackcurrent_lvlup3" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_blackcurrent_lvlup3</Esoterica>
+		<DisplayName>Black Current IV</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_arrow1" Gong="Mod_trib_gong1">
+		<Level>Qi</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,1,2,0</Line>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_voidstrike" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_voidstrike</Esoterica>
+		<DisplayName>Void Strike</DisplayName>
+		<Level>Qi</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,1,0,2,1</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_innateqi" Gong="Mod_trib_gong1">
+		<Esoterica>FightSkillEsoterica_1</Esoterica>
+		<DisplayName>Innate Qi</DisplayName>
+		<Level>Qi</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,1,0,1,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_absorbmountain" Gong="Mod_trib_gong1">
+		<Esoterica>Magic_AbsorbLing_Thing_1</Esoterica>
+		<DisplayName>Devour Mountain</DisplayName>
+		<Level>Dan1</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_voidmeditation" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_manual_magic_voidmeditation</Esoterica>
+		<DisplayName>Void Meditation</DisplayName>
+		<Level>Dan1</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_blackpulse" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_blackpulse</Esoterica>
+		<DisplayName>Black Pulse</DisplayName>
+		<Level>Dan1</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong1_tree_blackcurrent</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_abyssalcauldron" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_abyssalcauldron</Esoterica>
+		<DisplayName>Abyssal Cauldron - Tier I</DisplayName>
+		<Level>Dan1</Level>
+		<Index>4</Index>
+		<Layers>
+			<li>Mod_trib_gong1_tree_abyssalcauldron_lvlup1</li>
+			<li>Mod_trib_gong1_tree_abyssalcauldron_lvlup2</li>
+			<li>Mod_trib_gong1_tree_abyssalcauldron_lvlup3</li>
+		</Layers>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong1_tree_voidconduction_lvlup1</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_abyssalcauldron_lvlup1" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_abyssalcauldron_lvlup1</Esoterica>
+		<DisplayName>Abyssal Cauldron - Tier II</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_abyssalcauldron_lvlup2" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_abyssalcauldron_lvlup2</Esoterica>
+		<DisplayName>Abyssal Cauldron - Tier III</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_abyssalcauldron_lvlup3" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_abyssalcauldron_lvlup3</Esoterica>
+		<DisplayName>Abyssal Cauldron - Tier IV</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_arrow2" Gong="Mod_trib_gong1">
+		<Level>Dan1</Level>
+		<Index>5</Index>
+		<Line>0,1,0,2,0,0,0,0</Line>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_voidconduction" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_voidconduction</Esoterica>
+		<DisplayName>Void Conduction</DisplayName>
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Layers>
+			<li>Mod_trib_gong1_tree_voidconduction_lvlup1</li>
+		</Layers>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong1_tree_voidstrike</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_voidconduction_lvlup1" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_voidconduction_lvlup1</Esoterica>
+		<DisplayName>Void Spark</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_blackmantra" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_blackmantra</Esoterica>
+		<DisplayName>Black Mantra</DisplayName>
+		<Level>Dan1</Level>
+		<Index>7</Index>
+		<Layers>
+			<li>Mod_trib_gong1_tree_blackmantra_lvlup1</li>
+		</Layers>
+		<Line>0,0,0,0,1,1,2,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong1_tree_voidstrike</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_blackmantra_lvlup1" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_blackmantra_lvlup1</Esoterica>
+		<DisplayName>Black Mantra II</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_arrow3" Gong="Mod_trib_gong1">
+		<Level>Dan1</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,2,1</Line>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_arrow4" Gong="Mod_trib_gong1">
+		<Level>Dan1</Level>
+		<Index>9</Index>
+		<Line>1,0,1,0,1,0,2,0</Line>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_voidpill" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_voidpill</Esoterica>
+		<DisplayName>Void Compression Pill</DisplayName>
+		<Level>Dan1</Level>
+		<Index>11</Index>
+		<Layers>
+			<li>Mod_trib_gong1_tree_voidpill_lvlup1</li>
+		</Layers>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_voidpill_lvlup1" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_voidpill_lvlup1</Esoterica>
+		<DisplayName>Abyssal Pill</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_blackstorm" Gong="Mod_trib_gong1">
+		<Esoterica>Magic_PrayForLightningStorm</Esoterica>
+		<DisplayName>Black Storm</DisplayName>
+		<Level>Dan2</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_deepmeditation" Gong="Mod_trib_gong1">
+		<Esoterica>Magic_ClosedDoor_1</Esoterica>
+		<DisplayName>Deep Meditation</DisplayName>
+		<Level>Dan2</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_voidshield" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_voidshield</Esoterica>
+		<DisplayName>Void Shield</DisplayName>
+		<Level>Dan2</Level>
+		<Index>3</Index>
+		<Layers>
+			<li>Mod_trib_gong1_tree_voidshield_lvlup1</li>
+		</Layers>
+		<Line>0,0,0,0,1,1,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong1_tree_blackpulse</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_voidshield_lvlup1" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_voidshield_lvlup1</Esoterica>
+		<DisplayName>Void Armor</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_arrow5" Gong="Mod_trib_gong1">
+		<Level>Dan2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,1,0,1</Line>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_arrow6" Gong="Mod_trib_gong1">
+		<Level>Dan2</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,0,1,2,1</Line>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_arrow7" Gong="Mod_trib_gong1">
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,1,0,1</Line>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_abyssaltempest" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_abyssaltempest</Esoterica>
+		<DisplayName>Abyssal Tempest</DisplayName>
+		<Level>Dan2</Level>
+		<Index>7</Index>
+		<Layers>
+			<li>Mod_trib_gong1_tree_abyssaltempest_lvlup1</li>
+		</Layers>
+		<Line>0,0,0,0,1,0,0,1</Line>
+		<PreUnit>
+			<li>Mod_trib_gong1_tree_voidstrike</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_abyssaltempest_lvlup1" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_abyssaltempest_lvlup1</Esoterica>
+		<DisplayName>Abyssal Annihilation</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_voidstep" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_voidstep</Esoterica>
+		<DisplayName>Void Step</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Layers>
+			<li>Mod_trib_gong1_tree_voidstep_lvlup1</li>
+		</Layers>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong1_tree_blackmantra</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_voidstep_lvlup1" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_voidstep_lvlup1</Esoterica>
+		<DisplayName>Void Flight</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_divinebolt" Gong="Mod_trib_gong1">
+		<Esoterica>FightSkillEsoterica_3</Esoterica>
+		<DisplayName>Divine Black Bolt</DisplayName>
+		<Level>Dan2</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,1,0,1,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong1_tree_innateqi</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_obliterationpill" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_obliterationpill</Esoterica>
+		<DisplayName>Obliteration Pills</DisplayName>
+		<Level>Dan2</Level>
+		<Index>11</Index>
+		<Layers>
+			<li>Mod_trib_gong1_tree_obliterationpill_lvlup1</li>
+			<li>Mod_trib_gong1_tree_voidlightning</li>
+		</Layers>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_obliterationpill_lvlup1" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_obliterationpill_lvlup1</Esoterica>
+		<DisplayName>Void Obliteration Pill</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_voidlightning" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_voidlightning</Esoterica>
+		<DisplayName>Condensed Void Lightning Pill</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_taorefinement" Gong="Mod_trib_gong1">
+		<Esoterica>Magic_JieHuiDaoPowerUp</Esoterica>
+		<DisplayName>Void Tao Refinement</DisplayName>
+		<Level>God</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_heavenbreaker" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_heavenbreaker</Esoterica>
+		<DisplayName>Heaven Breaker</DisplayName>
+		<Level>God</Level>
+		<Index>5</Index>
+		<Layers>
+			<li>Mod_trib_gong1_tree_heavenbreaker_lvlup1</li>
+			<li>Mod_trib_gong1_tree_heavenbreaker_lvlup2</li>
+		</Layers>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong1_tree_voidshield</li>
+			<li>Mod_trib_gong1_tree_abyssaltempest</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_heavenbreaker_lvlup1" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_heavenbreaker_lvlup1</Esoterica>
+		<DisplayName>Heaven Crusher</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_heavenbreaker_lvlup2" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_heavenbreaker_lvlup2</Esoterica>
+		<DisplayName>Heaven Annihilator</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_voidincantation" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_voidincantation</Esoterica>
+		<DisplayName>Void Incantation</DisplayName>
+		<Level>God</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong1_tree_voidstep_lvlup1</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_arrow8" Gong="Mod_trib_gong1">
+		<Level>God</Level>
+		<Index>9</Index>
+		<Line>1,2,0,1,0,0,0,0</Line>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_blackfulmination" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_blackfulmination</Esoterica>
+		<DisplayName>Black Fulmination</DisplayName>
+		<Level>God</Level>
+		<Index>10</Index>
+		<Layers>
+			<li>Mod_trib_gong1_tree_blackfulmination_lvlup1</li>
+			<li>Mod_trib_gong1_tree_legacyartifact</li>
+		</Layers>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong1_tree_divinebolt</li>
+			<li>Mod_trib_gong1_tree_voidincantation</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_blackfulmination_lvlup1" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_blackfulmination_lvlup1</Esoterica>
+		<DisplayName>Unstoppable Black Lightning</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_legacyartifact" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_voidtalisman</Esoterica>
+		<DisplayName>Legacy Artifact: Void Talisman</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_voidannihilation" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_voidannihilation</Esoterica>
+		<DisplayName>Void Annihilation</DisplayName>
+		<Level>God2</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong1_tree_blackfulmination</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_eurekapill" Gong="Mod_trib_gong1">
+		<Esoterica>God2_Dan</Esoterica>
+		<DisplayName>Void Eureka Pill</DisplayName>
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="1"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong1_tree_voidartifact" Gong="Mod_trib_gong1">
+		<Esoterica>God2_Fabao</Esoterica>
+		<DisplayName>Void Taoist Artifact</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="1"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+</List></SkillTree>
+" Level="1"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+</List></SkillTree>
+ills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Mod_trib_gong1_tree_lightningfulmination_lvlup1" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_lightningfulmination_lvlup1</Esoterica>
+		<DisplayName>Unstoppable Lightning</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<!--<Node Name="Mod_trib_gong1_tree_legacyartifact" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_legacyartifact</Esoterica>
+		<DisplayName>Legacy Artifact: Thunder Talisman</DisplayName>
+		<Level>None</Level>
+	</Node>-->
+
+	<Node Name="Mod_trib_gong1_tree_legacyartifact" Gong="Mod_trib_gong1">
+		<Esoterica>Mod_trib_gong1_forbiddenseal</Esoterica>
+		<DisplayName>Legacy Artifact: Forbidden Seal</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+<!-- DG -->
+	
+	<Node Name="Mod_trib_gong1_tree_eurekapill" Gong="Mod_trib_gong1">
+		<Esoterica>God2_Dan</Esoterica>
+		<DisplayName>Eureka Pill</DisplayName>
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Mod_trib_gong1_taoistartifact" Gong="Mod_trib_gong1">
+		<Esoterica>God2_Fabao</Esoterica>
+		<DisplayName>Taoist Artifact</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+</List></SkillTree>

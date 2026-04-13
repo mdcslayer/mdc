@@ -1,0 +1,22 @@
+<Esotericas><List>
+
+	<Esoterica Name="Mod_trib_gong1_voidtalisman">
+		<DisplayName>Legacy Artifact: Void Talisman</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>5</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>A supreme crafting blueprint of the Black Lightning Dao. The Void Talisman is an artifact of absolute destruction — forged in the space between heaven and oblivion.</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]Acquire the crafting method of Legacy Artifact: \n Void Talisman[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>Mod_trib_formula_forbiddenseal</li>
+		</Fabaos>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>5</DropRate>
+		</ProduceMode>
+	</Esoterica>
+
+</List></Esotericas>
