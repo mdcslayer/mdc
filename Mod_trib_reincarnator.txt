@@ -11,5 +11,3 @@ ID	IsHide	LastName	FristName	Desc	Sex	Age	BodyType	Hair	Beard	ClothesStuff	BodyC
 2073777545	0	Bai	Xueqing	Heaven's chosen.	2	16	1	1	0		2	23	608	100005	BeautifulFace2	LunHui_2	LunHui_48	Experiences6	Experiences7						-488688254	6	6	6	5	6	1	0	0	4	Human	0	0		1
 1536580765	0	An	Jing	Ruthless cultist.	1	35	2	8	0		2	3	518	100003	HighMan	Strong	Mod_trib_EarthAttunedConstitution	Experiences1G1_4							1431937371	3	5	5	1	2	1	0	1	0	Human	0	0		1
 1706190324	0	Yin	Peng	Scheming official.	1	30	3	9	0	Item_YellowCloth	0	22	580	100006	LunHui_Kong_4	Feminization	LunHui_3	Experiences27	Experiences14	Experiences24	Experiences3				1428507346	6	4	4	1	4	3	0	0	0	Human	0	0		1
-Jing	Ruthless cultist.	1	35	2	8	0		2	3	518	100003	HighMan	Strong	Mod_trib_EarthAttunedConstitution	Experiences1G1_4							1431937371	3	5	5	1	2	1	0	1	0	Human	0	0		1
-1706190324	0	Yin	Peng	Scheming official.	1	30	3	9	0	Item_YellowCloth	0	22	580	100006	LunHui_Kong_4	Feminization	LunHui_3	Experiences27	Experiences14	Experiences24	Experiences3				1428507346	6	4	4	1	4	3	0	0	0	Human	0	0		1
