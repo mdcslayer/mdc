@@ -1,12 +1,12 @@
 {
   "Name": "black_lightning_mod",
   "DisplayName": "Black Lightning",
-  "Desc": "The Black Lightning mod is the ultimate overpowered cultivation experience.\n\nThis mod adds:\n- OP Cultivation Laws with insane multipliers\n- OP Pills that max out stats and guarantee breakthroughs\n- OP Items & Artifacts with game-breaking power\n- OP Reincarnators with maxed traits and bonuses\n\nThis mod is designed to be absolutely broken. Enjoy the power of the heavens.",
+  "Desc": "The Black Lightning mod is the ultimate overpowered cultivation experience.\n\nThis mod adds:\n- OP Cultivation Laws with insane multipliers (Black Lightning Dao + Sect Sovereign Dao)\n- OP Pills that max out stats and guarantee breakthroughs\n- OP Items & Artifacts with game-breaking power (Heaven-Rending Sword, Sect-Destroyer Talisman, Forbidden Seal, Void Talisman)\n- OP Reincarnators with maxed traits and bonuses (4 new godlike reincarnators added)\n- 3 new OP traits: Sect Slayer, Primordial God Body, Heaven's Nemesis\n- New Law: Sect Sovereign Dao — one cultivator can solo an entire sect\n\nThis mod is designed to be absolutely broken. Enjoy the power of the heavens.",
   "UIPackage": null,
   "GameVersion": "1.2.0",
-  "Version": 1.1,
+  "Version": 1.2,
   "Author": "mdcslayer",
-  "IncreasedDesc": "1.0.0\n- Initial release\n- Added OP laws, pills, items, and reincarnators\n1.0.1\n- The legacy artifact will now properly reduce the spell-casting delay, instead of increasing it.\n1.0.2\n- Fixed added manuals drop rate\n- Updated the law adventure\n- Updated the secret adventure\n- Fixed typos\n1.0.3\n- Fixed required game version so that it should be compatible with gamepass\n- Fixed more typos\n1.1.0\n- Added new traits\n- Added new reincarnators",
+  "IncreasedDesc": "1.0.0\n- Initial release\n- Added OP laws, pills, items, and reincarnators\n1.0.1\n- The legacy artifact will now properly reduce the spell-casting delay, instead of increasing it.\n1.0.2\n- Fixed added manuals drop rate\n- Updated the law adventure\n- Updated the secret adventure\n- Fixed typos\n1.0.3\n- Fixed required game version so that it should be compatible with gamepass\n- Fixed more typos\n1.1.0\n- Added new traits\n- Added new reincarnators\n1.2.0\n- Added 3 new god-tier traits: Sect Slayer, Primordial God Body, Heaven's Nemesis\n- Added 2 new OP backstories: Supreme Sovereign Reincarnation, Heaven-Defying Paragon\n- Added 4 new max-stat OP reincarnators: Long Tian, Xiao Yan, Chu Feng, Ye Zichen\n- Added 2 new game-breaking artifacts: Heaven-Rending Sword, Sect-Destroyer Talisman\n- Added new Sect Sovereign Dao law with full skill tree (can solo entire sects)\n- Added Ancient Sovereign's Ruins discovery adventure for new law",
   "IsInsideCreat": false,
   "Previews": ["law_stages.png", "law_tree.png", "mod_pills.png"],
   "ParentModInfo": null

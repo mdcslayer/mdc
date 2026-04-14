@@ -601,4 +601,476 @@
 		<GodCount>0</GodCount>
 	</Node>
 
+	<!-- ============================================================ -->
+	<!-- SECT SOVEREIGN DAO (Mod_trib_gong2) SKILL TREE -->
+	<!-- ============================================================ -->
+
+	<Node Name="Mod_trib_gong2_tree_voidgaze" Gong="Mod_trib_gong2">
+		<Esoterica>Magic_PrayForSun_1</Esoterica>
+		<DisplayName>Sovereign Gaze</DisplayName>
+		<Level>Qi</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sovereignqi" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sovereignqi</Esoterica>
+		<DisplayName>Sovereign Qi</DisplayName>
+		<Level>Qi</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_arrow1" Gong="Mod_trib_gong2">
+		<Level>Qi</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,1,2,0</Line>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sovereignstrike" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sovereignstrike</Esoterica>
+		<DisplayName>Sovereign Strike</DisplayName>
+		<Level>Qi</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,1,0,2,1</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_innateqi" Gong="Mod_trib_gong2">
+		<Esoterica>FightSkillEsoterica_1</Esoterica>
+		<DisplayName>Sovereign Innate Qi</DisplayName>
+		<Level>Qi</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,1,0,1,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_absorbmountain" Gong="Mod_trib_gong2">
+		<Esoterica>Magic_AbsorbLing_Thing_1</Esoterica>
+		<DisplayName>Sovereign Mountain Devourer</DisplayName>
+		<Level>Dan1</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sovereignbody" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sovereignbody</Esoterica>
+		<DisplayName>Sovereign Body</DisplayName>
+		<Level>Dan1</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_sovereignqi</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sovereigncauldron" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sovereigncauldron</Esoterica>
+		<DisplayName>Sovereign Cauldron</DisplayName>
+		<Level>Dan1</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_sovereignpotential</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_arrow2" Gong="Mod_trib_gong2">
+		<Level>Dan1</Level>
+		<Index>5</Index>
+		<Line>0,1,0,2,0,0,0,0</Line>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sovereignpotential" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sovereignpotential</Esoterica>
+		<DisplayName>Sovereign Potential</DisplayName>
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_sovereignstrike</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sovereignmantra" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sovereignmantra</Esoterica>
+		<DisplayName>Sovereign Mantra</DisplayName>
+		<Level>Dan1</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,1,1,2,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_sovereignstrike</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sovereignpill" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sovereignpill</Esoterica>
+		<DisplayName>Sovereign Compression Pill</DisplayName>
+		<Level>Dan1</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_blackstorm" Gong="Mod_trib_gong2">
+		<Esoterica>Magic_PrayForLightningStorm</Esoterica>
+		<DisplayName>Sovereign Storm</DisplayName>
+		<Level>Dan2</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sovereignshield" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sovereignshield</Esoterica>
+		<DisplayName>Sovereign Shield</DisplayName>
+		<Level>Dan2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,1,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_sovereignbody</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_arrow5" Gong="Mod_trib_gong2">
+		<Level>Dan2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,1,0,1</Line>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_arrow6" Gong="Mod_trib_gong2">
+		<Level>Dan2</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,0,1,2,1</Line>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sovereigntempest" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sovereigntempest</Esoterica>
+		<DisplayName>Sovereign Tempest</DisplayName>
+		<Level>Dan2</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,1,0,0,1</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_sovereignstrike</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sovereignstep" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sovereignstep</Esoterica>
+		<DisplayName>Sovereign Step</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_sovereignmantra</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_divinebolt" Gong="Mod_trib_gong2">
+		<Esoterica>FightSkillEsoterica_3</Esoterica>
+		<DisplayName>Sovereign Divine Bolt</DisplayName>
+		<Level>Dan2</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,1,0,1,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_innateqi</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sectpill" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sectpill</Esoterica>
+		<DisplayName>Sect-Razing Pills</DisplayName>
+		<Level>Dan2</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_taorefinement" Gong="Mod_trib_gong2">
+		<Esoterica>Magic_JieHuiDaoPowerUp</Esoterica>
+		<DisplayName>Sovereign Tao Refinement</DisplayName>
+		<Level>God</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sectbreaker" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sectbreaker</Esoterica>
+		<DisplayName>Sect Breaker</DisplayName>
+		<Level>God</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_sovereignshield</li>
+			<li>Mod_trib_gong2_tree_sovereigntempest</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sovereignincantation" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sovereignincantation</Esoterica>
+		<DisplayName>Sovereign Incantation</DisplayName>
+		<Level>God</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_sovereignstep</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sectobliteration" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sectobliteration</Esoterica>
+		<DisplayName>Sect Obliteration</DisplayName>
+		<Level>God</Level>
+		<Index>10</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_divinebolt</li>
+			<li>Mod_trib_gong2_tree_sovereignincantation</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sovereignartifact" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sovereignartifact</Esoterica>
+		<DisplayName>Legacy Artifact: Heaven-Rending Sword</DisplayName>
+		<Level>God</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_sectobliteration</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sectdestroyeresoterica" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sectdestroyeresoterica</Esoterica>
+		<DisplayName>Legacy Artifact: Sect-Destroyer Talisman</DisplayName>
+		<Level>God</Level>
+		<Index>12</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_sectobliteration</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sovereignannihilation" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sovereignannihilation</Esoterica>
+		<DisplayName>Sovereign Annihilation</DisplayName>
+		<Level>God2</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_sectobliteration</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_eurekapill" Gong="Mod_trib_gong2">
+		<Esoterica>God2_Dan</Esoterica>
+		<DisplayName>Sovereign Eureka Pill</DisplayName>
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="1"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sovereignfabao" Gong="Mod_trib_gong2">
+		<Esoterica>God2_Fabao</Esoterica>
+		<DisplayName>Sovereign Taoist Artifact</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit></PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="1"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_sectsovereign" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_sectsovereign</Esoterica>
+		<DisplayName>Sect Sovereign</DisplayName>
+		<Level>DG</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_sectbreaker</li>
+			<li>Mod_trib_gong2_tree_sovereignannihilation</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Mod_trib_gong2_tree_eternalsovereign" Gong="Mod_trib_gong2">
+		<Esoterica>Mod_trib_gong2_eternalsovereign</Esoterica>
+		<DisplayName>Eternal Sect Sovereign</DisplayName>
+		<Level>Immortal</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Mod_trib_gong2_tree_sectsovereign</li>
+		</PreUnit>
+		<MutexUnit></MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills></Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
 </List></SkillTree>

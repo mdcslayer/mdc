@@ -35,5 +35,74 @@
 			<DropRate>5</DropRate>
 		</ProduceMode>
 	</ThingDef>
+	<ThingDef Type="Item" Name="Mod_trib_item_heavenrendingsword" Parent="MiBaoBase">
+		<ThingName>Heaven-Rending Sword</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTfu01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_MBfu01</FabaoTexPath>
+		<Desc>A primordial divine sword forged from the bones of the first heaven. It hungered for ten thousand years before finding a worthy wielder. One swing can rend the heavens, split the earth, and annihilate an entire sect. No defense can withstand it. No life can endure its edge.</Desc>
+		<ElementKind>Jin</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>Heavy2</li>
+				<li>Hard2</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name="Item_Wood" count="1"/>
+				</CostItems>
+			</BeMade>
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid="Other" des="Passive — always active." needcount="0"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="Sync_AddEquptDataModifier" sParam1="Mod_trib_modifiers_fabao_heavenrendingsword" Desc="Heaven-Rending Sword: absolute combat supremacy in all areas."/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>Jin</Kind>
+		</Element>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>3</DropRate>
+		</ProduceMode>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Mod_trib_item_sectdestroyer" Parent="MiBaoBase">
+		<ThingName>Sect-Destroyer Talisman</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTfu01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_MBfu01</FabaoTexPath>
+		<Desc>An ancient talisman inscribed with the war-edicts of a sovereign who toppled seven hundred sects in a single day. The hatred of ten thousand fallen cultivators is compressed within it, thirsting for more destruction. When activated, all enemy defenses crumble and all allied attacks become absolute.</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>Light2</li>
+				<li>Soft1</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name="Item_Wood" count="1"/>
+				</CostItems>
+			</BeMade>
+			<Fabao>
+				<ActiveCondition>
+					<Condition eventid="Other" des="Passive — always active." needcount="0"/>
+				</ActiveCondition>
+				<SpecialAbility>
+					<Ability Kind="Sync_AddEquptDataModifier" sParam1="Mod_trib_modifiers_fabao_sectdestroyer" Desc="Sect-Destroyer Talisman: omnipotent sect-razing power."/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+		<ProduceMode>
+			<WorldDrop>1</WorldDrop>
+			<DropRate>3</DropRate>
+		</ProduceMode>
+	</ThingDef>
 
 </List></ThingDefs>

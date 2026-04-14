@@ -8,4 +8,20 @@
 		<Count>99</Count>
 	</Fabao>
 
+	<Fabao Name="Mod_trib_formula_heavenrendingsword">
+		<Normal>0</Normal>
+		<ItemName>Mod_trib_item_heavenrendingsword</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.99</SuccessRate>
+		<Count>99</Count>
+	</Fabao>
+
+	<Fabao Name="Mod_trib_formula_sectdestroyer">
+		<Normal>0</Normal>
+		<ItemName>Mod_trib_item_sectdestroyer</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.99</SuccessRate>
+		<Count>99</Count>
+	</Fabao>
+
 </List></FabaoFormulas>

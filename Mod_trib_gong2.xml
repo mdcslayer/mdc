@@ -1,0 +1,206 @@
+<Gongs><List>
+
+	<Gong Name="Mod_trib_gong2">
+		<DisplayName>Sect Sovereign Dao</DisplayName>
+		<Desc>The supreme law of sect subjugation, recovered from the ruins of the greatest sovereign who ever lived. The Sect Sovereign Dao transforms the cultivator into an unstoppable force of dominion — capable of fighting entire sects alone, suppressing all opponents with overwhelming pressure, and ascending to absolute rulership over heaven and earth. One cultivator. One sect. No survivors.</Desc>
+		<SelectDesc>This path makes you the supreme ruler above all sects. Every cultivator who opposes you will be crushed. Heaven kneels. Are you ready to dominate all creation?</SelectDesc>
+		<FiveBaseNeed>0,0,0,0,0</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>None</ElementKind>
+		<Hide>0</Hide>
+		<Skill>
+			<li>jiangdao</li>
+			<li>ciqi</li>
+			<li>bihu</li>
+		</Skill>
+
+		<Stages>
+
+			<Stage Name="Mod_trib_gong2_stage1" Level="5">
+				<DisplayName>Sovereign Spark</DisplayName>
+				<Desc>The sovereign power awakens. A single spark from this flame could raze a mortal army.</Desc>
+				<Value>10</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Sovereignty Ignition</DisplayName>
+						<Desc>Ignite the sovereign dao within. The body is instantly purified and exalted above all mortal limits.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier></AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>Sovereign Purification</DisplayName>
+						<Desc>All impurities are scoured away. The body becomes a vessel worthy of sovereign power.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Mod_trib_gong2_stage2" Level="7">
+				<DisplayName>Sovereign Tempering</DisplayName>
+				<Desc>The sovereign power tempers the body and soul. The first tribulation shatters before your gaze.</Desc>
+				<Value>20</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Sovereign Integration</DisplayName>
+						<Desc>The sovereign dao merges with flesh and spirit. No external force can disrupt this convergence.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Mod_trib_modifiers_trib1</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>Sovereign Tribulation</DisplayName>
+						<Desc>The tribulation lightning is a trivial inconvenience. Absorb it and grow stronger.</Desc>
+						<NeckCountdown>4200</NeckCountdown>
+						<ThunderValue>10</ThunderValue>
+						<AddModifier></AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Mod_trib_gong2_stage3" Level="9">
+				<DisplayName>Sovereign Core</DisplayName>
+				<Desc>Forge a Golden Core of pure sovereign energy. It radiates dominion over all living things.</Desc>
+				<Value>40</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Sovereign Consolidation</DisplayName>
+						<Desc>The sovereign energy condenses into an indestructible core. All enemies within range tremble involuntarily.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier></AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>Sovereign Golden Core</DisplayName>
+						<Desc>The Golden Core forms — radiating absolute authority over heaven and earth.</Desc>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Mod_trib_gong2_stage4" Level="10">
+				<DisplayName>Sovereign Nascent</DisplayName>
+				<Desc>The nascent soul awakens as a sovereign entity. Its mere presence suppresses entire sects.</Desc>
+				<Value>80</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Sovereign Awakening</DisplayName>
+						<Desc>The nascent soul rises, radiating sovereign pressure that suppresses all who approach.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Mod_trib_modifiers_trib2</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>Mortal Dominion</DisplayName>
+						<Desc>The tribulation falls like rain before an emperor. Endure it without blinking.</Desc>
+						<NeckCountdown>4200</NeckCountdown>
+						<ThunderValue>20</ThunderValue>
+						<AddModifier></AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Mod_trib_gong2_stage5" Level="11">
+				<DisplayName>Sovereign Dominion</DisplayName>
+				<Desc>Sovereign dominion reaches its peak. A single cultivator now possesses the combat power of an entire sect.</Desc>
+				<Value>150</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Sect-Crushing Forging</DisplayName>
+						<Desc>The nascent soul is tempered in sovereign flame. No sect elder can rival this power.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+					<Neck Location="0.75" Kind="Chance">
+						<DisplayName>Sovereign Consecration</DisplayName>
+						<Desc>Heaven consecrates the sovereign. Prepare for the next great leap.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Mod_trib_modifiers_trib3</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>Dominion Tribulation</DisplayName>
+						<Desc>Heaven sends its strongest tribulation. It is merely a warm-up.</Desc>
+						<NeckCountdown>4200</NeckCountdown>
+						<ThunderValue>50</ThunderValue>
+						<AddModifier></AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Mod_trib_gong2_stage6" Level="12">
+				<DisplayName>Sect Annihilator</DisplayName>
+				<Desc>The sovereign stands between the mortal and divine realms. An entire sect falls before them in moments.</Desc>
+				<Value>300</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Annihilation Assimilation</DisplayName>
+						<Desc>The sovereign absorbs all earthly power. No sect in the mortal realm can resist.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+					<Neck Location="0.75" Kind="Chance">
+						<DisplayName>Annihilation Consecration</DisplayName>
+						<Desc>The sovereign prepares for final ascension. Heaven watches in apprehension.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Mod_trib_modifiers_trib4</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>Heaven's Last Resistance</DisplayName>
+						<Desc>Heaven sends everything it has. It is not enough. It was never enough.</Desc>
+						<NeckCountdown>4200</NeckCountdown>
+						<ThunderValue>100</ThunderValue>
+						<AddModifier></AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Mod_trib_gong2_stage7" Level="14">
+				<DisplayName>Eternal Sect Sovereign</DisplayName>
+				<Desc>The final ascension. Become the eternal sovereign above all sects, above heaven, above everything. No force in existence can challenge you.</Desc>
+				<Value>500</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Eternal Sovereignty</DisplayName>
+						<Desc>All power in existence is subsumed into the sovereign. Immortality is assured.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier></AddModifier>
+					</Neck>
+					<Neck Location="0.75" Kind="Chance">
+						<DisplayName>Supreme Consecration</DisplayName>
+						<Desc>The void whispers: You are the Sect Sovereign. Ascend.</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.99</SuccessChange>
+						<FailedChangeAdd>0.99</FailedChangeAdd>
+						<AddModifier>Mod_trib_modifiers_trib5</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>Sovereign Ascension</DisplayName>
+						<Desc>Heaven's final tribulation shatters like glass. You ascend as the Eternal Sect Sovereign — ruler of all cultivators, forever.</Desc>
+						<ThunderValue>200</ThunderValue>
+						<NeckCountdown>3000</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+		</Stages>
+	</Gong>
+
+</List></Gongs>
